@@ -1,0 +1,74 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "autoApprove": true,
+  "automerge": true,
+  "platformAutomerge": true,
+  "dependencyDashboard": true,
+  "ignoreTests": false,
+  "semanticCommits": "enabled",
+  "semanticCommitScope": "deps",
+  "semanticCommitType": "chore",
+  "minimumReleaseAge": "3 days",
+  "reviewers": ["team:developer-team"],
+  "labels": ["T: renovate"],
+  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "rollback": {
+    "autoApprove": false,
+    "automerge": false,
+    "branchTopic": "{{{depNameSanitized}}}-rollback",
+    "commitMessageAction": "Roll back",
+    "semanticCommitType": "fix",
+    "addLabels": ["T: hotfix", "requires core approval"],
+    "additionalReviewers": ["team:core-team"],
+    "schedule": ["at any time"]
+  },
+  "vulnerabilityAlerts": {
+    "dependencyDashboardApproval": false,
+    "automerge": false,
+    "rangeStrategy": "update-lockfile",
+    "commitMessageSuffix": "[SECURITY]",
+    "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
+    "prCreation": "immediate",
+    "addLabels": ["T: hotfix", "requires core approval"],
+    "additionalReviewers": ["team:core-team"],
+    "schedule": ["at any time"]
+  },
+  "packageRules": [
+    {
+      "groupName": "Auto merge & approve disable rules",
+      "matchUpdateTypes": ["major"],
+      "autoApprove": false,
+      "automerge": false
+    }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["\\.tsx?$"],
+      "matchStrings": [
+        "(?:im|ex)port(?:.|\\s)+?from\\s*['\"](?<depName>https://deno.land/.+?)@v?(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?['\"]"
+      ],
+      "datasourceTemplate": "deno"
+    },
+    {
+      "fileMatch": ["^import_map.json$"],
+      "matchStrings": [
+        "\".+?\"\\s*:\\s*\"(?<depName>https://deno.land/.+?)@v?(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?\""
+      ],
+      "datasourceTemplate": "deno"
+    },
+    {
+      "fileMatch": ["\\.tsx?$"],
+      "matchStrings": [
+        "(?:im|ex)port(?:.|\\s)+?from\\s*['\"]npm:(?<depName>.+?)@(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?['\"]"
+      ],
+      "datasourceTemplate": "npm"
+    },
+    {
+      "fileMatch": ["^import_map.json$"],
+      "matchStrings": [
+        "\".+?\"\\s*:\\s*\"npm:(?<depName>.+?)@(?<currentValue>\\d+?\\.\\d+?\\.\\d+?).*?\""
+      ],
+      "datasourceTemplate": "npm"
+    }
+  ]
+}

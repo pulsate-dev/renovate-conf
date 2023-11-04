@@ -1,0 +1,24 @@
+{
+  "name": "renovate-conf",
+  "description": "renovate config for Pulsate Project",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "pulsate-dev",
+    "email": "info@pulsate.dev",
+    "url": "https://pulsate.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pulsate-dev/renovate-conf"
+  },
+  "scripts": {
+    "format": "prettier --write default.json",
+    "check": "prettier --check default.json",
+    "test": "renovate-config-validator default.json"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "renovate": "^37.44.0"
+  }
+}

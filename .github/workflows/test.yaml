@@ -1,0 +1,42 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Check Renovate config format
+        run: bun run check
+
+      - name: Check Renovate config
+        run: bun run test
+
+      - name: Test Renovate config
+        run: |
+          bun run renovate \
+              --dry-run \
+              --schedule= \
+              --require-config=ignored \
+              '${{ github.repository }}'
+        env:
+          RENOVATE_USERNAME: renovate[bot]
+          RENOVATE_GIT_AUTHOR: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+          RENOVATE_TOKEN: ${{ github.token }}
+          RENOVATE_BASE_BRANCHES: ${{ github.sha }}
+          RENOVATE_CONFIG_FILE: ./renovate.json
+          LOG_LEVEL: debug
