@@ -14,21 +14,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Use Node.js v18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
-
-      - name: Check Renovate config format
-        run: bun run check
+        run: pnpm i --frozen-lockfile
 
       - name: Check Renovate config
-        run: bun run test
+        run: pnpm run test
 
       - name: Test Renovate config
         run: |
-          bun run renovate \
+          pnpm exec renovate \
               --dry-run \
               --schedule= \
               --require-config=ignored \
