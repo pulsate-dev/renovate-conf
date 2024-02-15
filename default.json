@@ -11,7 +11,11 @@
   "minimumReleaseAge": "3 days",
   "reviewers": ["team:developer-team"],
   "labels": ["T: renovate"],
-  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "schedule": [
+    "at any time"
+  ],
   "rollback": {
     "autoApprove": false,
     "automerge": false,
