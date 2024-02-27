@@ -10,7 +10,7 @@ devDependencies:
     version: 3.2.5
   renovate:
     specifier: ^37.44.0
-    version: 37.212.0(typanion@3.14.0)
+    version: 37.214.2(typanion@3.14.0)
 
 packages:
 
@@ -4228,8 +4228,8 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /openpgp@5.11.0:
-    resolution: {integrity: sha512-hytHsxIPtRhuh6uAmoBUThHSwHSX3imLu7x4453T+xkVqIw49rl22MRD4KQIAQdCDoVdouejzYgcuLmMA/2OAA==}
+  /openpgp@5.11.1:
+    resolution: {integrity: sha512-TynUBPuaSI7dN0gP+A38CjNRLxkOkkptefNanalDQ71BFAKKm+dLbksymSW5bUrB7RcAneMySL/Y+r/TbLpOnQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -4609,8 +4609,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.212.0(typanion@3.14.0):
-    resolution: {integrity: sha512-hPmQNtKZJp7U9mEAKy7dlpjY7bS5aLvugrQGw6J7ZQm6pMzSPkCIF7YvQpk7ENJu1AWqxvvTM+0LJdINy7GNvA==}
+  /renovate@37.214.2(typanion@3.14.0):
+    resolution: {integrity: sha512-lTlbIU5WOjCKr21E5F3iBIevUc4OFzHhbOIDwBbXzFTDBvcBpOE1/L3sXN2trUXOupaTM7hF8X0aLEVHhzn7nw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4695,7 +4695,7 @@ packages:
       ms: 2.1.3
       nanoid: 3.3.7
       node-html-parser: 6.1.12
-      openpgp: 5.11.0
+      openpgp: 5.11.1
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
