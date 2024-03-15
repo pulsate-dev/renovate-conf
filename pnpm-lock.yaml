@@ -10,7 +10,7 @@ devDependencies:
     version: 3.2.5
   renovate:
     specifier: ^37.44.0
-    version: 37.236.0(typanion@3.14.0)
+    version: 37.238.0(typanion@3.14.0)
 
 packages:
 
@@ -1245,7 +1245,7 @@ packages:
       '@opentelemetry/api': 1.7.0
       '@types/shimmer': 1.0.5
       import-in-the-middle: 1.7.1
-      require-in-the-middle: 7.2.0
+      require-in-the-middle: 7.2.1
       semver: 7.5.4
       shimmer: 1.2.1
     transitivePeerDependencies:
@@ -1504,7 +1504,7 @@ packages:
     dependencies:
       '@octokit/rest': 20.0.2
       '@renovatebot/osv-offline-db': 1.6.0
-      adm-zip: 0.5.10
+      adm-zip: 0.5.12
       fs-extra: 11.2.0
       got: 11.8.6
       luxon: 3.4.4
@@ -1984,13 +1984,13 @@ packages:
   /@types/better-sqlite3@7.6.9:
     resolution: {integrity: sha512-FvktcujPDj9XKMJQWFcl2vVl7OdRIqsSRX9b0acWwTmwLK9CF2eqo/FRcmMLNpugKoX/avA6pb7TorDLmpgTnQ==}
     dependencies:
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
     dev: true
 
   /@types/bunyan@1.8.9:
     resolution: {integrity: sha512-ZqS9JGpBxVOvsawzmVt30sP++gSQMTejCkIAQ3VdadOcRE8izTyW66hufvwLeH+YEGP6Js2AW7Gz+RMyvrEbmw==}
     dependencies:
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
     dev: true
 
   /@types/cacheable-request@6.0.3:
@@ -1998,7 +1998,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
       '@types/responselike': 1.0.3
     dev: true
 
@@ -2013,7 +2013,7 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
     dev: true
 
   /@types/mdast@3.0.15:
@@ -2034,8 +2034,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: true
 
-  /@types/node@20.11.26:
-    resolution: {integrity: sha512-YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==}
+  /@types/node@20.11.27:
+    resolution: {integrity: sha512-qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2047,7 +2047,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
     dev: true
 
   /@types/semver@7.5.8:
@@ -2074,7 +2074,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
     dev: true
     optional: true
 
@@ -2176,8 +2176,8 @@ packages:
     hasBin: true
     dev: true
 
-  /adm-zip@0.5.10:
-    resolution: {integrity: sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==}
+  /adm-zip@0.5.12:
+    resolution: {integrity: sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==}
     engines: {node: '>=6.0'}
     dev: true
 
@@ -4609,8 +4609,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.236.0(typanion@3.14.0):
-    resolution: {integrity: sha512-BZm7TFpz71/mMoAInfV1CqW0os/5k5JaMK+lQbmsdVdNscmMKBTldyvqpXcLPQ/5Ihtf3V8fAog8/PYAMcuqlg==}
+  /renovate@37.238.0(typanion@3.14.0):
+    resolution: {integrity: sha512-R3pSyd5H2BEoYTnhQwVOKzHroW+0tzCkw9ChEkmqnRP1YmAKHqyAX1wmBayxMXNufnRPZ/lSa1Iiy2ljPRw4/g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4737,8 +4737,8 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
-  /require-in-the-middle@7.2.0:
-    resolution: {integrity: sha512-3TLx5TGyAY6AOqLBoXmHkNql0HIf2RGbuMgCDT2WO/uGVAPJs6h7Kl+bN6TIZGd9bWhWPwnDnTHGtW8Iu77sdw==}
+  /require-in-the-middle@7.2.1:
+    resolution: {integrity: sha512-u5XngygsJ+XV2dBV/Pl4SrcNpUXQfmYmXtuFeHDXfzk4i4NnGnret6xKWkkJHjMHS/16yMV9pEAlAunqmjllkA==}
     engines: {node: '>=8.6.0'}
     dependencies:
       debug: 4.3.4
