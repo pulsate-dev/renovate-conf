@@ -3,6 +3,7 @@
   "description": "renovate config for Pulsate Project",
   "private": true,
   "license": "MIT",
+  "packageManager": "pnpm@8.15.1",
   "author": {
     "name": "pulsate-dev",
     "email": "info@pulsate.dev",
@@ -13,11 +14,13 @@
     "url": "https://github.com/pulsate-dev/renovate-conf"
   },
   "scripts": {
-    "format": "prettier --write default.json",
-    "check": "prettier --check default.json",
-    "test": "renovate-config-validator default.json"
+    "format": "prettier --write *.json",
+    "check": "prettier --check *.json",
+    "test": "renovate-config-validator default.json",
+    "postinstall": "lefthook install"
   },
   "devDependencies": {
+    "lefthook": "^1.6.1",
     "prettier": "^3.0.3",
     "renovate": "^37.44.0"
   }
