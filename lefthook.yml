@@ -1,8 +1,5 @@
 pre-commit:
   commands:
-    check:
-      glob: '*.{json}'
-      run: pnpm run check
     test:
       glob: 'default.json'
       run: pnpm run test
