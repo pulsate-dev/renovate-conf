@@ -14,14 +14,11 @@
     "url": "https://github.com/pulsate-dev/renovate-conf"
   },
   "scripts": {
-    "format": "prettier --write *.json",
-    "check": "prettier --check *.json",
     "test": "renovate-config-validator default.json",
     "postinstall": "lefthook install"
   },
   "devDependencies": {
     "lefthook": "^1.6.1",
-    "prettier": "^3.0.3",
     "renovate": "^37.44.0"
   }
 }
