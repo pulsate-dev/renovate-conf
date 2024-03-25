@@ -14,9 +14,7 @@
   "reviewers": ["team:developer-team"],
   "labels": ["T: renovate"],
   "extends": ["config:base"],
-  "schedule": [
-    "at any time"
-  ],
+  "schedule": ["before 3am"],
   "rollback": {
     "autoApprove": false,
     "automerge": false,
