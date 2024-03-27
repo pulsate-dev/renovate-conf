@@ -10,7 +10,7 @@ devDependencies:
     version: 1.6.7
   renovate:
     specifier: ^37.44.0
-    version: 37.267.1(typanion@3.14.0)
+    version: 37.269.3(typanion@3.14.0)
 
 packages:
 
@@ -1247,7 +1247,7 @@ packages:
       '@opentelemetry/api-logs': 0.49.1
       '@types/shimmer': 1.0.5
       import-in-the-middle: 1.7.1
-      require-in-the-middle: 7.2.1
+      require-in-the-middle: 7.3.0
       semver: 7.6.0
       shimmer: 1.2.1
     transitivePeerDependencies:
@@ -4695,8 +4695,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.267.1(typanion@3.14.0):
-    resolution: {integrity: sha512-ico/rdXyC9rb/LNLX6qbYNciCfNtVj+kgSPK1tnYwoy4aojWczBdH6woBk96DE1snmZMcR+mtxj7SHIeuhVf1g==}
+  /renovate@37.269.3(typanion@3.14.0):
+    resolution: {integrity: sha512-UqebKP4A+f35zE3hE88F+dwe13jsM/QAueV4pPe9x1xH8paY9zIfmklA+A1t9XUUyEb96mODUNIwRbQsqAqtiA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4796,7 +4796,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.22.0
+      simple-git: 3.23.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       toml-eslint-parser: 0.9.3
@@ -4823,8 +4823,8 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
-  /require-in-the-middle@7.2.1:
-    resolution: {integrity: sha512-u5XngygsJ+XV2dBV/Pl4SrcNpUXQfmYmXtuFeHDXfzk4i4NnGnret6xKWkkJHjMHS/16yMV9pEAlAunqmjllkA==}
+  /require-in-the-middle@7.3.0:
+    resolution: {integrity: sha512-nQFEv9gRw6SJAwWD2LrL0NmQvAcO7FBwJbwmr2ttPAacfy0xuiOjE5zt+zM4xDyuyvUaxBi/9gb2SoCyNEVJcw==}
     engines: {node: '>=8.6.0'}
     dependencies:
       debug: 4.3.4
@@ -5022,8 +5022,8 @@ packages:
       simple-concat: 1.0.1
     dev: true
 
-  /simple-git@3.22.0:
-    resolution: {integrity: sha512-6JujwSs0ac82jkGjMHiCnTifvf1crOiY/+tfs/Pqih6iow7VrpNKRRNdWm6RtaXpvvv/JGNYhlUtLhGFqHF+Yw==}
+  /simple-git@3.23.0:
+    resolution: {integrity: sha512-P9ggTW8vb/21CAL/AmnACAhqBDfnqSSZVpV7WuFtsFR9HLunf5IqQvk+OXAQTfkcZep8pKnt3DV3o7w3TegEkQ==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
