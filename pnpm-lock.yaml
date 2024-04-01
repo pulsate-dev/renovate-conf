@@ -10,7 +10,7 @@ devDependencies:
     version: 1.6.7
   renovate:
     specifier: ^37.44.0
-    version: 37.273.0(typanion@3.14.0)
+    version: 37.275.0(typanion@3.14.0)
 
 packages:
 
@@ -4207,8 +4207,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /node-abi@3.56.0:
-    resolution: {integrity: sha512-fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==}
+  /node-abi@3.57.0:
+    resolution: {integrity: sha512-Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.6.0
@@ -4502,7 +4502,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.56.0
+      node-abi: 3.57.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -4694,8 +4694,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.273.0(typanion@3.14.0):
-    resolution: {integrity: sha512-5EBnSbGjIklXs1epMNxnIJ9nGZYkmTVWLs0qtV80kNyXXulbLesfv86mTChRuwM56bhy9aPTlK1xF3arXih0kw==}
+  /renovate@37.275.0(typanion@3.14.0):
+    resolution: {integrity: sha512-LO1TD2J8ER9LYSAc5Klij9hLR7Zd12D6CytO0AObkd0R4+0iFaiTnLxGSvtI0ybYrdjIvdKMl+BES2j+rNoUVw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
