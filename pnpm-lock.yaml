@@ -10,7 +10,7 @@ devDependencies:
     version: 1.6.7
   renovate:
     specifier: ^37.44.0
-    version: 37.275.0(typanion@3.14.0)
+    version: 37.278.0(typanion@3.14.0)
 
 packages:
 
@@ -1034,8 +1034,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@npmcli/agent@2.2.1:
-    resolution: {integrity: sha512-H4FrOVtNyWC8MUwL3UfjOsAihHvT1Pe8POj3JvjXhSTJipsZMtgUALCT4mGyYZNxymkUfOw3PUj6dE4QPp6osQ==}
+  /@npmcli/agent@2.2.2:
+    resolution: {integrity: sha512-OrcNPXdpSl9UX7qPVRWbmWMCSXrcDa2M9DvrbOTj7ao1S4PlqVFYv9/yLKMkrJKZ/V5A/kDBC690or307i26Og==}
     engines: {node: ^16.14.0 || >=18.0.0}
     requiresBuild: true
     dependencies:
@@ -3850,7 +3850,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     requiresBuild: true
     dependencies:
-      '@npmcli/agent': 2.2.1
+      '@npmcli/agent': 2.2.2
       cacache: 18.0.2
       http-cache-semantics: 4.1.1
       is-lambda: 1.0.1
@@ -4694,8 +4694,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.275.0(typanion@3.14.0):
-    resolution: {integrity: sha512-LO1TD2J8ER9LYSAc5Klij9hLR7Zd12D6CytO0AObkd0R4+0iFaiTnLxGSvtI0ybYrdjIvdKMl+BES2j+rNoUVw==}
+  /renovate@37.278.0(typanion@3.14.0):
+    resolution: {integrity: sha512-uzrsNJuesdjqigL0Z9eFd9BaEGmN1e5FZfDOw/A0giBw/Mdi9EKOa3PJ/KaHPXdzL2+budPFkND/zBpc9XCvfA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
