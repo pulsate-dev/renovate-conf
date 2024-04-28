@@ -4,6 +4,15 @@ Renovate configuration for Pulsate projects
 
 ## Usage
 
+> [!NOTE]
+>
+> This repository support only Node.js v20.0.0 and higher.
+> If you are using older version of Node.js, please update it.
+>
+> ```sh
+> mise install
+> ```
+
 1. Setup [renovate](https://github.com/apps/renovate) in repository
 2. Add `renovate.json` file to repository `.github` directory
 
