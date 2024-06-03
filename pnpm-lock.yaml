@@ -13,7 +13,7 @@ importers:
         version: 1.6.14
       renovate:
         specifier: ^37.44.0
-        version: 37.382.2(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 37.382.4(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -794,8 +794,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@20.13.0':
-    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
+  '@types/node@20.14.0':
+    resolution: {integrity: sha512-5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2420,8 +2420,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.382.2:
-    resolution: {integrity: sha512-VzYad5XUW/YMBemBJu+x2pPd8uRCyJ/TdjyT/NbIEjUlDuRprz5354X5mTeRLUJVaWJt1fSwEN4dxryKKsOIMg==}
+  renovate@37.382.4:
+    resolution: {integrity: sha512-AG0zllVEm73+CyyEbLl5yI3MpTNN8zX9FSBPKT5X6DiKa2c/YyBNgb0LrZowKLhXry5tC1usUOouVCjJEmMIcA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4545,13 +4545,13 @@ snapshots:
 
   '@types/bunyan@1.8.9':
     dependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.39.13': {}
@@ -4560,7 +4560,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4570,7 +4570,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@20.13.0':
+  '@types/node@20.14.0':
     dependencies:
       undici-types: 5.26.5
 
@@ -4578,7 +4578,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
 
   '@types/semver@7.5.8': {}
 
@@ -4590,7 +4590,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
     optional: true
 
   '@yarnpkg/core@4.0.5(typanion@3.14.0)':
@@ -6434,7 +6434,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.382.2(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.382.4(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0))
