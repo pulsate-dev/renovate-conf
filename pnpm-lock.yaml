@@ -13,7 +13,7 @@ importers:
         version: 1.8.1
       renovate:
         specifier: ^38.0.0
-        version: 38.131.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.132.3(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -223,8 +223,8 @@ packages:
     resolution: {integrity: sha512-qA2diK3d/ztC8HUb7NwPKbJRV01NpzTzxFn+L5G3HzJBNeKbjLcprQ/9uG9gp2UEx2Go782FI1ddrMNa0qBICA==}
     engines: {node: '>=16.0.0'}
 
-  '@babel/code-frame@7.26.0':
-    resolution: {integrity: sha512-INCKxTtbXtcNbUZ3YXutwMpEleqttcswhAdee7dhuoVrD2cnuc3PqtERBtxkX5nziX9vnBL8WXmSGwv8CuPV6g==}
+  '@babel/code-frame@7.26.2':
+    resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.25.9':
@@ -823,8 +823,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@22.8.1':
-    resolution: {integrity: sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg==}
+  '@types/node@22.8.4':
+    resolution: {integrity: sha512-SpNNxkftTJOPk0oN+y2bIqurEXHTA2AOZ3EJDDKeJ5VzkvvORSvmQXGQarcOzWV1ac7DCaPBEdMDxBsM+d8jWw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -847,8 +847,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.1.3':
-    resolution: {integrity: sha512-s9CBcIgrqZOzWXt6m2Q8vuv0Wu+Oz8NFkvxoR5qLtH1Du/el8ZPtrh0Gw38iBe4hXav5/jmuZ9qg8jo6prezKg==}
+  '@yarnpkg/core@4.1.4':
+    resolution: {integrity: sha512-aaftrtm5sfwMlqmj3CYqp1a1Lbd0UR7dOk3K5pMCV3VTDwXWQWw9uwGm4QpE5YairVG30jpOdbTLUcoota55HQ==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.0':
@@ -2425,8 +2425,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.131.0:
-    resolution: {integrity: sha512-qIFFQSuns3bOxEddFB+kixGQ/G688SgF6+F5cHWK2+CQGFjA8rJWdEmCCnx0mymJWwY2ziCa6CZNA+9M+Vin0g==}
+  renovate@38.132.3:
+    resolution: {integrity: sha512-d+tGoE/wJ3lCbttKtDvH87Akxm8awIuYXo4GQ4jokYkE+sDpvbKOui59m/27xfMrPBp5UThDuWJPzF5Af1Fqmw==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3715,7 +3715,7 @@ snapshots:
       '@smithy/types': 3.6.0
       tslib: 2.8.0
 
-  '@babel/code-frame@7.26.0':
+  '@babel/code-frame@7.26.2':
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
       js-tokens: 4.0.0
@@ -4498,13 +4498,13 @@ snapshots:
 
   '@types/bunyan@1.8.9':
     dependencies:
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.39.13': {}
@@ -4513,7 +4513,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4523,7 +4523,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@22.8.1':
+  '@types/node@22.8.4':
     dependencies:
       undici-types: 6.19.8
 
@@ -4531,7 +4531,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
 
   '@types/semver@7.5.8': {}
 
@@ -4543,10 +4543,10 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
     optional: true
 
-  '@yarnpkg/core@4.1.3(typanion@3.14.0)':
+  '@yarnpkg/core@4.1.4(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.5.8
@@ -6095,7 +6095,7 @@ snapshots:
 
   parse-json@5.2.0:
     dependencies:
-      '@babel/code-frame': 7.26.0
+      '@babel/code-frame': 7.26.2
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
@@ -6187,7 +6187,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.8.1
+      '@types/node': 22.8.4
       long: 5.2.3
 
   protocols@2.0.1: {}
@@ -6309,7 +6309,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.131.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.132.3(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.658.1
       '@aws-sdk/client-ec2': 3.658.1
@@ -6336,7 +6336,7 @@ snapshots:
       '@renovatebot/pep440': 3.0.20
       '@renovatebot/ruby-semver': 3.0.23
       '@sindresorhus/is': 4.6.0
-      '@yarnpkg/core': 4.1.3(typanion@3.14.0)
+      '@yarnpkg/core': 4.1.4(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.2
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
