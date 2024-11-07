@@ -13,7 +13,7 @@ importers:
         version: 1.8.2
       renovate:
         specifier: ^38.0.0
-        version: 38.142.4(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.142.7(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -335,8 +335,8 @@ packages:
     resolution: {integrity: sha512-9HhEh5GqFrassUndqJsyW7a0PzfyWr2eV2xwzHLIS+wX3125+9HE9FMRAKmJRwxZhgZGwH3HNQQjoMGZqmOeVA==}
     engines: {node: '>=14'}
 
-  '@opentelemetry/api-logs@0.54.1':
-    resolution: {integrity: sha512-tFOyYT8tFRSuUc+pEXnHG99270y7K8MSBLQSPiYBJ/0cgCp+8KmSej4joBfah0JoXAwbPzMCom3ri0xsiYbLvg==}
+  '@opentelemetry/api-logs@0.54.2':
+    resolution: {integrity: sha512-4MTVwwmLgUh5QrJnZpYo6YRO5IBLAggf2h8gWDblwRagDStY13aEvt7gGk3jewrMaPlHiF83fENhIx0HO97/cQ==}
     engines: {node: '>=14'}
 
   '@opentelemetry/api@1.9.0':
@@ -1143,6 +1143,10 @@ packages:
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+    engines: {node: '>= 8'}
+
+  cross-spawn@7.0.5:
+    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
     engines: {node: '>= 8'}
 
   css-select@5.1.0:
@@ -2432,8 +2436,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.142.4:
-    resolution: {integrity: sha512-EUg1WeU5OmJGSNItrKSP0b2LSdyBlM6tTusNUMkmkpS261pYAgafHEhguntiA7/aWiqbvHOOZmfiR8vucSSDuA==}
+  renovate@38.142.7:
+    resolution: {integrity: sha512-96Z/SIGAfK8S+1P5FxcGh9koh3fd74jbBsF0OseZThSI+p/GPag+CdF7YRTiVm1lnNkcMFpXpLegkyRRavnYYQ==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3856,7 +3860,7 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@opentelemetry/api-logs@0.54.1':
+  '@opentelemetry/api-logs@0.54.2':
     dependencies:
       '@opentelemetry/api': 1.9.0
 
@@ -3883,7 +3887,7 @@ snapshots:
   '@opentelemetry/instrumentation-bunyan@0.42.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.54.1
+      '@opentelemetry/api-logs': 0.54.2
       '@opentelemetry/instrumentation': 0.54.0(@opentelemetry/api@1.9.0)
       '@types/bunyan': 1.8.9
     transitivePeerDependencies:
@@ -4887,6 +4891,12 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  cross-spawn@7.0.5:
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+
   css-select@5.1.0:
     dependencies:
       boolbase: 1.0.0
@@ -5142,7 +5152,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       signal-exit: 4.1.0
 
   forwarded-parse@2.1.2: {}
@@ -6323,7 +6333,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.142.4(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.142.7(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.658.1
       '@aws-sdk/client-ec2': 3.658.1
