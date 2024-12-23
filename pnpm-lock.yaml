@@ -13,7 +13,7 @@ importers:
         version: 1.10.0
       renovate:
         specifier: ^39.0.0
-        version: 39.75.1(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.77.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1385,8 +1385,8 @@ packages:
     resolution: {integrity: sha512-xkjOecfnKGkSsOwtZ5Pz7Us/T6mrbPQrq0nh+aCO5V9nk5NLWmasAHumTKjiPJPWANe+kAZ84Jc8ooJkzZ88Sw==}
     hasBin: true
 
-  fastq@1.17.1:
-    resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
+  fastq@1.18.0:
+    resolution: {integrity: sha512-QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==}
 
   fd-slicer@1.1.0:
     resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
@@ -2408,8 +2408,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.75.1:
-    resolution: {integrity: sha512-C+9wveMRoNMwSyzb++hjKyd4x0SqMADJx4kObDySpPTBEFkR3AKRyys3MXC+MVqoY7oDi7MEgb75DGzC+qjhbA==}
+  renovate@39.77.0:
+    resolution: {integrity: sha512-qGEJfN28V/q9rnm41CBMmsMg32iarTRJrBL33lZUgKvRLBTFsUO3KRf+H2SjGf+J3Sd74BAhq3xt6dpopu701Q==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3788,7 +3788,7 @@ snapshots:
   '@nodelib/fs.walk@1.2.8':
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.17.1
+      fastq: 1.18.0
 
   '@npmcli/agent@2.2.2':
     dependencies:
@@ -5117,7 +5117,7 @@ snapshots:
     dependencies:
       strnum: 1.0.5
 
-  fastq@1.17.1:
+  fastq@1.18.0:
     dependencies:
       reusify: 1.0.4
 
@@ -6269,7 +6269,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.75.1(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.77.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.699.0
       '@aws-sdk/client-ec2': 3.701.0
