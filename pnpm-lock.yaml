@@ -13,7 +13,7 @@ importers:
         version: 1.10.0
       renovate:
         specifier: ^39.0.0
-        version: 39.77.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.80.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -339,10 +339,6 @@ packages:
   '@one-ini/wasm@0.1.1':
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
 
-  '@opentelemetry/api-logs@0.55.0':
-    resolution: {integrity: sha512-3cpa+qI45VHYcA5c0bHM6VHo9gicv3p5mlLHNG3rLyjQU8b7e0st1rWtrUn3JbZ3DwwCfhKop4eQ9UuYlC6Pkg==}
-    engines: {node: '>=14'}
-
   '@opentelemetry/api-logs@0.56.0':
     resolution: {integrity: sha512-Wr39+94UNNG3Ei9nv3pHd4AJ63gq5nSemMRpCd8fPwDL9rN3vK26lzxfH27mw16XzOSO+TpyQwBAMaLxaPWG0g==}
     engines: {node: '>=14'}
@@ -351,20 +347,20 @@ packages:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
 
-  '@opentelemetry/context-async-hooks@1.28.0':
-    resolution: {integrity: sha512-igcl4Ve+F1N2063PJUkesk/GkYyuGIWinYkSyAFTnIj3gzrOgvOA4k747XNdL47HRRL1w/qh7UW8NDuxOLvKFA==}
+  '@opentelemetry/context-async-hooks@1.29.0':
+    resolution: {integrity: sha512-TKT91jcFXgHyIDF1lgJF3BHGIakn6x0Xp7Tq3zoS3TMPzT9IlP0xEavWP8C1zGjU9UmZP2VR1tJhW9Az1A3w8Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/core@1.28.0':
-    resolution: {integrity: sha512-ZLwRMV+fNDpVmF2WYUdBHlq0eOWtEaUJSusrzjGnBt7iSRvfjFE3RXYUZJrqou/wIDWV0DwQ5KIfYe9WXg9Xqw==}
+  '@opentelemetry/core@1.29.0':
+    resolution: {integrity: sha512-gmT7vAreXl0DTHD2rVZcw3+l2g84+5XiHIqdBUxXbExymPCvSsGOpiwMmn8nkiJur28STV31wnhIDrzWDPzjfA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/exporter-trace-otlp-http@0.55.0':
-    resolution: {integrity: sha512-lMiNic63EVHpW+eChmLD2CieDmwQBFi72+LFbh8+5hY0ShrDGrsGP/zuT5MRh7M/vM/UZYO/2A/FYd7CMQGR7A==}
+  '@opentelemetry/exporter-trace-otlp-http@0.56.0':
+    resolution: {integrity: sha512-vqVuJvcwameA0r0cNrRzrZqPLB0otS+95g0XkZdiKOXUo81wYdY6r4kyrwz4nSChqTBEFm0lqi/H2OWGboOa6g==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
@@ -375,14 +371,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@opentelemetry/instrumentation-http@0.55.0':
-    resolution: {integrity: sha512-AO27XSjkgNicfy/YBthskFAwx9VfaO7tChrLaTONTfOWv14GlB3Rs2eTYpywZIHWsW2cR5hvVkcDte4GV0stoA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-
-  '@opentelemetry/instrumentation@0.55.0':
-    resolution: {integrity: sha512-YDCMlaQRZkziLL3t6TONRgmmGxDx6MyQDXRD0dknkkgUZtOK5+8MWft1OXzmNu6XfBOdT12MKN5rz+jHUkafKQ==}
+  '@opentelemetry/instrumentation-http@0.56.0':
+    resolution: {integrity: sha512-/bWHBUAq8VoATnH9iLk5w8CE9+gj+RgYSUphe7hry472n6fYl7+4PvuScoQMdmSUTprKq/gyr2kOWL6zrC7FkQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
@@ -393,63 +383,59 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@opentelemetry/otlp-exporter-base@0.55.0':
-    resolution: {integrity: sha512-iHQI0Zzq3h1T6xUJTVFwmFl5Dt5y1es+fl4kM+k5T/3YvmVyeYkSiF+wHCg6oKrlUAJfk+t55kaAu3sYmt7ZYA==}
+  '@opentelemetry/otlp-exporter-base@0.56.0':
+    resolution: {integrity: sha512-eURvv0fcmBE+KE1McUeRo+u0n18ZnUeSc7lDlW/dzlqFYasEbsztTK4v0Qf8C4vEY+aMTjPKUxBG0NX2Te3Pmw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@opentelemetry/otlp-transformer@0.55.0':
-    resolution: {integrity: sha512-kVqEfxtp6mSN2Dhpy0REo1ghP4PYhC1kMHQJ2qVlO99Pc+aigELjZDfg7/YKmL71gR6wVGIeJfiql/eXL7sQPA==}
+  '@opentelemetry/otlp-transformer@0.56.0':
+    resolution: {integrity: sha512-kVkH/W2W7EpgWWpyU5VnnjIdSD7Y7FljQYObAQSKdRcejiwMj2glypZtUdfq1LTJcv4ht0jyTrw1D3CCxssNtQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@opentelemetry/propagator-b3@1.28.0':
-    resolution: {integrity: sha512-Q7HVDIMwhN5RxL4bECMT4BdbyYSAKkC6U/RGn4NpO/cbqP6ZRg+BS7fPo/pGZi2w8AHfpIGQFXQmE8d2PC5xxQ==}
+  '@opentelemetry/propagator-b3@1.29.0':
+    resolution: {integrity: sha512-ktsNDlqhu+/IPGEJRMj81upg2JupUp+SwW3n1ZVZTnrDiYUiMUW41vhaziA7Q6UDhbZvZ58skDpQhe2ZgNIPvg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/propagator-jaeger@1.28.0':
-    resolution: {integrity: sha512-wKJ94+s8467CnIRgoSRh0yXm/te0QMOwTq9J01PfG/RzYZvlvN8aRisN2oZ9SznB45dDGnMj3BhUlchSA9cEKA==}
+  '@opentelemetry/propagator-jaeger@1.29.0':
+    resolution: {integrity: sha512-EXIEYmFgybnFMijVgqx1mq/diWwSQcd0JWVksytAVQEnAiaDvP45WuncEVQkFIAC0gVxa2+Xr8wL5pF5jCVKbg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/resources@1.28.0':
-    resolution: {integrity: sha512-cIyXSVJjGeTICENN40YSvLDAq4Y2502hGK3iN7tfdynQLKWb3XWZQEkPc+eSx47kiy11YeFAlYkEfXwR1w8kfw==}
+  '@opentelemetry/resources@1.29.0':
+    resolution: {integrity: sha512-s7mLXuHZE7RQr1wwweGcaRp3Q4UJJ0wazeGlc/N5/XSe6UyXfsh1UQGMADYeg7YwD+cEdMtU1yJAUXdnFzYzyQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/sdk-logs@0.55.0':
-    resolution: {integrity: sha512-TSx+Yg/d48uWW6HtjS1AD5x6WPfLhDWLl/WxC7I2fMevaiBuKCuraxTB8MDXieCNnBI24bw9ytyXrDCswFfWgA==}
+  '@opentelemetry/sdk-logs@0.56.0':
+    resolution: {integrity: sha512-OS0WPBJF++R/cSl+terUjQH5PebloidB1Jbbecgg2rnCmQbTST9xsRes23bLfDQVRvmegmHqDh884h0aRdJyLw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.4.0 <1.10.0'
 
-  '@opentelemetry/sdk-metrics@1.28.0':
-    resolution: {integrity: sha512-43tqMK/0BcKTyOvm15/WQ3HLr0Vu/ucAl/D84NO7iSlv6O4eOprxSHa3sUtmYkaZWHqdDJV0AHVz/R6u4JALVQ==}
+  '@opentelemetry/sdk-metrics@1.29.0':
+    resolution: {integrity: sha512-MkVtuzDjXZaUJSuJlHn6BSXjcQlMvHcsDV7LjY4P6AJeffMa4+kIGDjzsCf6DkAh6Vqlwag5EWEam3KZOX5Drw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
-  '@opentelemetry/sdk-trace-base@1.28.0':
-    resolution: {integrity: sha512-ceUVWuCpIao7Y5xE02Xs3nQi0tOGmMea17ecBdwtCvdo9ekmO+ijc9RFDgfifMl7XCBf41zne/1POM3LqSTZDA==}
+  '@opentelemetry/sdk-trace-base@1.29.0':
+    resolution: {integrity: sha512-hEOpAYLKXF3wGJpXOtWsxEtqBgde0SCv+w+jvr3/UusR4ll3QrENEGnSl1WDCyRrpqOQ5NCNOvZch9UFVa7MnQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/sdk-trace-node@1.28.0':
-    resolution: {integrity: sha512-N0sYfYXvHpP0FNIyc+UfhLnLSTOuZLytV0qQVrDWIlABeD/DWJIGttS7nYeR14gQLXch0M1DW8zm3VeN6Opwtg==}
+  '@opentelemetry/sdk-trace-node@1.29.0':
+    resolution: {integrity: sha512-ZpGYt+VnMu6O0SRKzhuIivr7qJm3GpWnTCMuJspu4kt3QWIpIenwixo5Vvjuu3R4h2Onl/8dtqAiPIs92xd5ww==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
-
-  '@opentelemetry/semantic-conventions@1.27.0':
-    resolution: {integrity: sha512-sAay1RrB+ONOem0OZanAR1ZI/k7yDpnOQSQmTMuGImUQb2y8EbSaCJ94FQluM74xoU03vlb2d2U90hZluL6nQg==}
-    engines: {node: '>=14'}
 
   '@opentelemetry/semantic-conventions@1.28.0':
     resolution: {integrity: sha512-lp4qAiMTD4sNWW4DbKLBkfiMZ4jbAboJIGOQr5DvciMRI494OapieI9qiODpOt0XBr1LjIDy1xAGAnVs5supTA==}
@@ -598,8 +584,8 @@ packages:
     resolution: {integrity: sha512-Gr/qwzyPaTL1tZcq8WQyHhTZREER5R1Wytmz4WnVGL4onA3dNk6Btll55c8Vr58pLdvWZmtG8oZxJTw3t3q7Jg==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/core@2.5.5':
-    resolution: {integrity: sha512-G8G/sDDhXA7o0bOvkc7bgai6POuSld/+XhNnWAbpQTpLv2OZPvyqQ58tLPPlz0bSNsXktldDDREIv1LczFeNEw==}
+  '@smithy/core@2.5.6':
+    resolution: {integrity: sha512-w494xO+CPwG/5B/N2l0obHv2Fi9U4DAY+sTi1GWT3BVvGpZetJjJXAynIO9IHp4zS1PinGhXtRSZydUXbJO4ag==}
     engines: {node: '>=16.0.0'}
 
   '@smithy/credential-provider-imds@3.2.8':
@@ -657,12 +643,12 @@ packages:
     resolution: {integrity: sha512-zfMhzojhFpIX3P5ug7jxTjfUcIPcGjcQYzB9t+rv0g1TX7B0QdwONW+ATouaLoD7h7LOw/ZlXfkq4xJ/g2TrIw==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/middleware-endpoint@3.2.6':
-    resolution: {integrity: sha512-WAqzyulvvSKrT5c6VrQelgNVNNO7BlTQW9Z+s9tcG6G5CaBS1YBpPtT3VuhXLQbewSiGi7oXQROwpw26EG9PLQ==}
+  '@smithy/middleware-endpoint@3.2.7':
+    resolution: {integrity: sha512-GTxSKf280aJBANGN97MomUQhW1VNxZ6w7HAj/pvZM5MUHbMPOGnWOp1PRYKi4czMaHNj9bdiA+ZarmT3Wkdqiw==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/middleware-retry@3.0.31':
-    resolution: {integrity: sha512-yq9wawrJLYHAYFpChLujxRN4My+SiKXvZk9Ml/CvTdRSA8ew+hvuR5LT+mjSlSBv3c4XJrkN8CWegkBaeD0Vrg==}
+  '@smithy/middleware-retry@3.0.32':
+    resolution: {integrity: sha512-v8gVA9HqibuZkFuFpfkC/EcHE8no/3Mv3JvRUGly63Axt4yyas1WDVOasFSdiqm2hZVpY7/k8mRT1Wd5k7r3Yw==}
     engines: {node: '>=16.0.0'}
 
   '@smithy/middleware-serde@3.0.11':
@@ -677,8 +663,8 @@ packages:
     resolution: {integrity: sha512-O9LVEu5J/u/FuNlZs+L7Ikn3lz7VB9hb0GtPT9MQeiBmtK8RSY3ULmsZgXhe6VAlgTw0YO+paQx4p8xdbs43vQ==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/node-http-handler@3.3.2':
-    resolution: {integrity: sha512-t4ng1DAd527vlxvOfKFYEe6/QFBcsj7WpNlWTyjorwXXcKw3XlltBGbyHfSJ24QT84nF+agDha9tNYpzmSRZPA==}
+  '@smithy/node-http-handler@3.3.3':
+    resolution: {integrity: sha512-BrpZOaZ4RCbcJ2igiSNG16S+kgAc65l/2hmxWdmhyoGWHTLlzQzr06PXavJp9OBlPEG/sHlqdxjWmjzV66+BSQ==}
     engines: {node: '>=16.0.0'}
 
   '@smithy/property-provider@3.1.11':
@@ -709,8 +695,8 @@ packages:
     resolution: {integrity: sha512-5JWeMQYg81TgU4cG+OexAWdvDTs5JDdbEZx+Qr1iPbvo91QFGzjy0IkXAKaXUHqmKUJgSHK0ZxnCkgZpzkeNTA==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/smithy-client@3.5.1':
-    resolution: {integrity: sha512-PmjskH4Os1Eh3rd5vSsa5uVelZ4DRu+N5CBEgb9AT96hQSJGWSEb6pGxKV/PtKQSIp9ft3+KvnT8ViMKaguzgA==}
+  '@smithy/smithy-client@3.5.2':
+    resolution: {integrity: sha512-h7xn+1wlpbXyLrtvo/teHR1SFGIIrQ3imzG0nz43zVLAJgvfC1Mtdwa1pFhoIOYrt/TiNjt4pD0gSYQEdZSBtg==}
     engines: {node: '>=16.0.0'}
 
   '@smithy/types@3.7.2':
@@ -743,12 +729,12 @@ packages:
     resolution: {integrity: sha512-pbjk4s0fwq3Di/ANL+rCvJMKM5bzAQdE5S/6RL5NXgMExFAi6UgQMPOm5yPaIWPpr+EOXKXRonJ3FoxKf4mCJQ==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/util-defaults-mode-browser@3.0.31':
-    resolution: {integrity: sha512-eO+zkbqrPnmsagqzrmF7IJrCoU2wTQXWVYxMPqA9Oue55kw9WEvhyuw2XQzTVTCRcYsg6KgmV3YYhLlWQJfK1A==}
+  '@smithy/util-defaults-mode-browser@3.0.32':
+    resolution: {integrity: sha512-FAGsnm/xJ19SZeoqGyo9CosqjUlm+XJTmygDMktebvDKw3bKiIiZ40O1MA6Z52KLmekYU2GO7BEK7u6e7ZORKw==}
     engines: {node: '>= 10.0.0'}
 
-  '@smithy/util-defaults-mode-node@3.0.31':
-    resolution: {integrity: sha512-0/nJfpSpbGZOs6qs42wCe2TdjobbnnD4a3YUUlvTXSQqLy4qa63luDaV04hGvqSHP7wQ7/WGehbvHkDhMZd1MQ==}
+  '@smithy/util-defaults-mode-node@3.0.32':
+    resolution: {integrity: sha512-2CzKhkPFCVdd15f3+0D1rldNlvJME8pVRBtVVsea2hy7lcOn0bGB0dTVUwzgfM4LW/aU4IOg3jWf25ZWaxbOiw==}
     engines: {node: '>= 10.0.0'}
 
   '@smithy/util-endpoints@2.1.7':
@@ -767,8 +753,8 @@ packages:
     resolution: {integrity: sha512-hJUC6W7A3DQgaee3Hp9ZFcOxVDZzmBIRBPlUAk8/fSOEl7pE/aX7Dci0JycNOnm9Mfr0KV2XjIlUOcGWXQUdVQ==}
     engines: {node: '>=16.0.0'}
 
-  '@smithy/util-stream@3.3.2':
-    resolution: {integrity: sha512-sInAqdiVeisUGYAv/FrXpmJ0b4WTFmciTRqzhb7wVuem9BHvhIG7tpiYHLDWrl2stOokNZpTTGqz3mzB2qFwXg==}
+  '@smithy/util-stream@3.3.3':
+    resolution: {integrity: sha512-bOm0YMMxRjbI3X6QkWwADPFkh2AH2xBMQIB1IQgCsCRqXXpSJatgjUR3oxHthpYwFkw3WPkOt8VgMpJxC0rFqg==}
     engines: {node: '>=16.0.0'}
 
   '@smithy/util-uri-escape@3.0.0':
@@ -1263,8 +1249,8 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  domutils@3.1.0:
-    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+  domutils@3.2.1:
+    resolution: {integrity: sha512-xWXmuRnN9OMP6ptPd2+H0cCbcYBULa5YDTbMm/2lvkWvNA3O4wcW+GvzooqBuNM8yy6pl3VIAeJTUUWUbfI5Fw==}
 
   dotenv@16.4.7:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
@@ -2408,8 +2394,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.77.0:
-    resolution: {integrity: sha512-qGEJfN28V/q9rnm41CBMmsMg32iarTRJrBL33lZUgKvRLBTFsUO3KRf+H2SjGf+J3Sd74BAhq3xt6dpopu701Q==}
+  renovate@39.80.0:
+    resolution: {integrity: sha512-9xLsq4BCZkCkQgEFcolZMTHmct0T73vviiYoeC1bcOHrgfWjbcmppmn+R1RNddrydM2aOzUyYE1F73WtvZGY1Q==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2994,26 +2980,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3042,26 +3028,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3089,26 +3075,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3138,26 +3124,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3186,26 +3172,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3242,7 +3228,7 @@ snapshots:
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@aws-sdk/xml-builder': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/eventstream-serde-browser': 3.0.14
       '@smithy/eventstream-serde-config-resolver': 3.0.11
       '@smithy/eventstream-serde-node': 3.0.13
@@ -3253,25 +3239,25 @@ snapshots:
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/md5-js': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       '@smithy/util-utf8': 3.0.0
       '@smithy/util-waiter': 3.2.0
       tslib: 2.8.1
@@ -3295,26 +3281,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3338,26 +3324,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3383,26 +3369,26 @@ snapshots:
       '@aws-sdk/util-user-agent-browser': 3.696.0
       '@aws-sdk/util-user-agent-node': 3.696.0
       '@smithy/config-resolver': 3.0.13
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/fetch-http-handler': 4.1.2
       '@smithy/hash-node': 3.0.11
       '@smithy/invalid-dependency': 3.0.11
       '@smithy/middleware-content-length': 3.0.13
-      '@smithy/middleware-endpoint': 3.2.6
-      '@smithy/middleware-retry': 3.0.31
+      '@smithy/middleware-endpoint': 3.2.7
+      '@smithy/middleware-retry': 3.0.32
       '@smithy/middleware-serde': 3.0.11
       '@smithy/middleware-stack': 3.0.11
       '@smithy/node-config-provider': 3.1.12
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/url-parser': 3.0.11
       '@smithy/util-base64': 3.0.0
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-body-length-node': 3.0.0
-      '@smithy/util-defaults-mode-browser': 3.0.31
-      '@smithy/util-defaults-mode-node': 3.0.31
+      '@smithy/util-defaults-mode-browser': 3.0.32
+      '@smithy/util-defaults-mode-node': 3.0.32
       '@smithy/util-endpoints': 2.1.7
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -3414,12 +3400,12 @@ snapshots:
   '@aws-sdk/core@3.696.0':
     dependencies:
       '@aws-sdk/types': 3.696.0
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/node-config-provider': 3.1.12
       '@smithy/property-provider': 3.1.11
       '@smithy/protocol-http': 4.1.8
       '@smithy/signature-v4': 4.2.4
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/util-middleware': 3.0.11
       fast-xml-parser: 4.4.1
@@ -3448,12 +3434,12 @@ snapshots:
       '@aws-sdk/core': 3.696.0
       '@aws-sdk/types': 3.696.0
       '@smithy/fetch-http-handler': 4.1.2
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/property-provider': 3.1.11
       '@smithy/protocol-http': 4.1.8
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       tslib: 2.8.1
 
   '@aws-sdk/credential-provider-ini@3.699.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(@aws-sdk/client-sts@3.699.0)':
@@ -3578,7 +3564,7 @@ snapshots:
       '@smithy/protocol-http': 4.1.8
       '@smithy/types': 3.7.2
       '@smithy/util-middleware': 3.0.11
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       '@smithy/util-utf8': 3.0.0
       tslib: 2.8.1
 
@@ -3612,10 +3598,10 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.696.0
       '@aws-sdk/util-format-url': 3.696.0
-      '@smithy/middleware-endpoint': 3.2.6
+      '@smithy/middleware-endpoint': 3.2.7
       '@smithy/protocol-http': 4.1.8
       '@smithy/signature-v4': 4.2.4
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
@@ -3623,7 +3609,7 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.696.0
       '@aws-sdk/util-format-url': 3.696.0
-      '@smithy/middleware-endpoint': 3.2.6
+      '@smithy/middleware-endpoint': 3.2.7
       '@smithy/protocol-http': 4.1.8
       '@smithy/signature-v4': 4.2.4
       '@smithy/types': 3.7.2
@@ -3634,15 +3620,15 @@ snapshots:
       '@aws-sdk/core': 3.696.0
       '@aws-sdk/types': 3.696.0
       '@aws-sdk/util-arn-parser': 3.693.0
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/node-config-provider': 3.1.12
       '@smithy/protocol-http': 4.1.8
       '@smithy/signature-v4': 4.2.4
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/util-config-provider': 3.0.0
       '@smithy/util-middleware': 3.0.11
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       '@smithy/util-utf8': 3.0.0
       tslib: 2.8.1
 
@@ -3657,7 +3643,7 @@ snapshots:
       '@aws-sdk/core': 3.696.0
       '@aws-sdk/types': 3.696.0
       '@aws-sdk/util-endpoints': 3.696.0
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/protocol-http': 4.1.8
       '@smithy/types': 3.7.2
       tslib: 2.8.1
@@ -3875,33 +3861,29 @@ snapshots:
 
   '@one-ini/wasm@0.1.1': {}
 
-  '@opentelemetry/api-logs@0.55.0':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-
   '@opentelemetry/api-logs@0.56.0':
     dependencies:
       '@opentelemetry/api': 1.9.0
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@opentelemetry/context-async-hooks@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/context-async-hooks@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@opentelemetry/core@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/core@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/semantic-conventions': 1.27.0
+      '@opentelemetry/semantic-conventions': 1.28.0
 
-  '@opentelemetry/exporter-trace-otlp-http@0.55.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/exporter-trace-otlp-http@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/otlp-exporter-base': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/otlp-transformer': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/otlp-exporter-base': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/otlp-transformer': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 1.29.0(@opentelemetry/api@1.9.0)
 
   '@opentelemetry/instrumentation-bunyan@0.44.0(@opentelemetry/api@1.9.0)':
     dependencies:
@@ -3912,26 +3894,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@opentelemetry/instrumentation-http@0.55.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/instrumentation-http@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/semantic-conventions': 1.27.0
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/semantic-conventions': 1.28.0
       forwarded-parse: 2.1.2
       semver: 7.6.3
-    transitivePeerDependencies:
-      - supports-color
-
-  '@opentelemetry/instrumentation@0.55.0(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.55.0
-      '@types/shimmer': 1.2.0
-      import-in-the-middle: 1.12.0
-      require-in-the-middle: 7.4.0
-      semver: 7.6.3
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
 
@@ -3947,70 +3917,68 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@opentelemetry/otlp-exporter-base@0.55.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/otlp-exporter-base@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/otlp-transformer': 0.55.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/otlp-transformer': 0.56.0(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/otlp-transformer@0.55.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/otlp-transformer@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.55.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-logs': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-metrics': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/api-logs': 0.56.0
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-logs': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-metrics': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 1.29.0(@opentelemetry/api@1.9.0)
       protobufjs: 7.4.0
 
-  '@opentelemetry/propagator-b3@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/propagator-b3@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/propagator-jaeger@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/propagator-jaeger@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/resources@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/resources@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/semantic-conventions': 1.27.0
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/semantic-conventions': 1.28.0
 
-  '@opentelemetry/sdk-logs@0.55.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/sdk-logs@0.56.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/api-logs': 0.55.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/api-logs': 0.56.0
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/sdk-metrics@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/sdk-metrics@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/sdk-trace-base@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/sdk-trace-base@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/semantic-conventions': 1.27.0
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/semantic-conventions': 1.28.0
 
-  '@opentelemetry/sdk-trace-node@1.28.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/sdk-trace-node@1.29.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/context-async-hooks': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/propagator-b3': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/propagator-jaeger': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/context-async-hooks': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/propagator-b3': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/propagator-jaeger': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 1.29.0(@opentelemetry/api@1.9.0)
       semver: 7.6.3
-
-  '@opentelemetry/semantic-conventions@1.27.0': {}
 
   '@opentelemetry/semantic-conventions@1.28.0': {}
 
@@ -4186,14 +4154,14 @@ snapshots:
       '@smithy/util-middleware': 3.0.11
       tslib: 2.8.1
 
-  '@smithy/core@2.5.5':
+  '@smithy/core@2.5.6':
     dependencies:
       '@smithy/middleware-serde': 3.0.11
       '@smithy/protocol-http': 4.1.8
       '@smithy/types': 3.7.2
       '@smithy/util-body-length-browser': 3.0.0
       '@smithy/util-middleware': 3.0.11
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       '@smithy/util-utf8': 3.0.0
       tslib: 2.8.1
 
@@ -4288,9 +4256,9 @@ snapshots:
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
-  '@smithy/middleware-endpoint@3.2.6':
+  '@smithy/middleware-endpoint@3.2.7':
     dependencies:
-      '@smithy/core': 2.5.5
+      '@smithy/core': 2.5.6
       '@smithy/middleware-serde': 3.0.11
       '@smithy/node-config-provider': 3.1.12
       '@smithy/shared-ini-file-loader': 3.1.12
@@ -4299,12 +4267,12 @@ snapshots:
       '@smithy/util-middleware': 3.0.11
       tslib: 2.8.1
 
-  '@smithy/middleware-retry@3.0.31':
+  '@smithy/middleware-retry@3.0.32':
     dependencies:
       '@smithy/node-config-provider': 3.1.12
       '@smithy/protocol-http': 4.1.8
       '@smithy/service-error-classification': 3.0.11
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       '@smithy/util-middleware': 3.0.11
       '@smithy/util-retry': 3.0.11
@@ -4328,7 +4296,7 @@ snapshots:
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
-  '@smithy/node-http-handler@3.3.2':
+  '@smithy/node-http-handler@3.3.3':
     dependencies:
       '@smithy/abort-controller': 3.1.9
       '@smithy/protocol-http': 4.1.8
@@ -4377,14 +4345,14 @@ snapshots:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.8.1
 
-  '@smithy/smithy-client@3.5.1':
+  '@smithy/smithy-client@3.5.2':
     dependencies:
-      '@smithy/core': 2.5.5
-      '@smithy/middleware-endpoint': 3.2.6
+      '@smithy/core': 2.5.6
+      '@smithy/middleware-endpoint': 3.2.7
       '@smithy/middleware-stack': 3.0.11
       '@smithy/protocol-http': 4.1.8
       '@smithy/types': 3.7.2
-      '@smithy/util-stream': 3.3.2
+      '@smithy/util-stream': 3.3.3
       tslib: 2.8.1
 
   '@smithy/types@3.7.2':
@@ -4425,21 +4393,21 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@smithy/util-defaults-mode-browser@3.0.31':
+  '@smithy/util-defaults-mode-browser@3.0.32':
     dependencies:
       '@smithy/property-provider': 3.1.11
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       bowser: 2.11.0
       tslib: 2.8.1
 
-  '@smithy/util-defaults-mode-node@3.0.31':
+  '@smithy/util-defaults-mode-node@3.0.32':
     dependencies:
       '@smithy/config-resolver': 3.0.13
       '@smithy/credential-provider-imds': 3.2.8
       '@smithy/node-config-provider': 3.1.12
       '@smithy/property-provider': 3.1.11
-      '@smithy/smithy-client': 3.5.1
+      '@smithy/smithy-client': 3.5.2
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
@@ -4464,10 +4432,10 @@ snapshots:
       '@smithy/types': 3.7.2
       tslib: 2.8.1
 
-  '@smithy/util-stream@3.3.2':
+  '@smithy/util-stream@3.3.3':
     dependencies:
       '@smithy/fetch-http-handler': 4.1.2
-      '@smithy/node-http-handler': 3.3.2
+      '@smithy/node-http-handler': 3.3.3
       '@smithy/types': 3.7.2
       '@smithy/util-base64': 3.0.0
       '@smithy/util-buffer-from': 3.0.0
@@ -4929,7 +4897,7 @@ snapshots:
       boolbase: 1.0.0
       css-what: 6.1.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       nth-check: 2.1.1
 
   css-what@6.1.0: {}
@@ -5002,7 +4970,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  domutils@3.1.0:
+  domutils@3.2.1:
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -6269,7 +6237,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.77.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.80.0(@aws-sdk/client-sso-oidc@3.699.0(@aws-sdk/client-sts@3.699.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.699.0
       '@aws-sdk/client-ec2': 3.701.0
@@ -6280,14 +6248,14 @@ snapshots:
       '@breejs/later': 4.2.0
       '@cdktf/hcl2json': 0.20.10
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/context-async-hooks': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/exporter-trace-otlp-http': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation': 0.55.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/context-async-hooks': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/exporter-trace-otlp-http': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation': 0.56.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation-bunyan': 0.44.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation-http': 0.55.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 1.28.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-node': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation-http': 0.56.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/resources': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 1.29.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-node': 1.29.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.28.0
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
