@@ -13,7 +13,7 @@ importers:
         version: 1.10.10
       renovate:
         specifier: ^39.0.0
-        version: 39.163.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.164.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1424,8 +1424,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  for-each@0.3.4:
-    resolution: {integrity: sha512-kKaIINnFpzW6ffJNDjjyjrk21BkDx38c0xa/klsT8VzLCaMEefv4ZTacrcVR4DmgTeBra++jMDAfS/tS799YDw==}
+  for-each@0.3.5:
+    resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
 
   foreground-child@3.3.0:
@@ -2439,8 +2439,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.163.0:
-    resolution: {integrity: sha512-KeSf4yMtCIS1LtCui0M3uwoKQiCbRMqxr2KgmtCNGQso1hulehgapeLA4NPFP1xIhyPoDmIIbN2XNcPk8KMUqA==}
+  renovate@39.164.0:
+    resolution: {integrity: sha512-jTXci5NVra7UCJO+5xKl9eUGFuBzgQcdAZc71Z1C27rTXR4ab7AWwaSt5I5VeTY2T68W8pKuVnU1Bf29IGNm/g==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5141,7 +5141,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  for-each@0.3.4:
+  for-each@0.3.5:
     dependencies:
       is-callable: 1.2.7
 
@@ -6284,7 +6284,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.163.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.164.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6893,7 +6893,7 @@ snapshots:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.8
       call-bound: 1.0.3
-      for-each: 0.3.4
+      for-each: 0.3.5
       gopd: 1.2.0
       has-tostringtag: 1.0.2
 
