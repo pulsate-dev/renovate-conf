@@ -13,7 +13,7 @@ importers:
         version: 1.10.10
       renovate:
         specifier: ^39.0.0
-        version: 39.164.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.164.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1772,8 +1772,8 @@ packages:
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
-  jackspeak@4.0.2:
-    resolution: {integrity: sha512-bZsjR/iRjl1Nk1UkjGpAzLNfQtzuijhn2g+pbZb98HQ1Gk8vM9hfbxeMBP+M2/UUdwj0RqGG3mlvk2MsAqwvEw==}
+  jackspeak@4.0.3:
+    resolution: {integrity: sha512-oSwM7q8PTHQWuZAlp995iPpPJ4Vkl7qT0ZRD+9duL9j2oBy6KcTfyxc8mEuHJYC+z/kbps80aJLkaNzTOrf/kw==}
     engines: {node: 20 || >=22}
 
   js-md4@0.3.2:
@@ -2439,8 +2439,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.164.0:
-    resolution: {integrity: sha512-jTXci5NVra7UCJO+5xKl9eUGFuBzgQcdAZc71Z1C27rTXR4ab7AWwaSt5I5VeTY2T68W8pKuVnU1Bf29IGNm/g==}
+  renovate@39.164.1:
+    resolution: {integrity: sha512-tTTbVe1hGL/h54JBM9uaqvxmqdkabcBWXQiblPUfRd9iVbqoa4PXfMOENFgoJ6j8GDaHXNq4pRx0ewqWkG/QKQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5259,7 +5259,7 @@ snapshots:
   glob@11.0.1:
     dependencies:
       foreground-child: 3.3.0
-      jackspeak: 4.0.2
+      jackspeak: 4.0.3
       minimatch: 10.0.1
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
@@ -5543,7 +5543,7 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jackspeak@4.0.2:
+  jackspeak@4.0.3:
     dependencies:
       '@isaacs/cliui': 8.0.2
 
@@ -6284,7 +6284,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.164.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.164.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
