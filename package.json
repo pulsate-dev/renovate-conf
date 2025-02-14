@@ -5,7 +5,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.2.1",
   "engines": {
-    "node": "22.13.1"
+    "node": "22.14.0"
   },
   "author": {
     "name": "pulsate-dev",
