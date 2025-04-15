@@ -13,7 +13,7 @@ importers:
         version: 1.11.9
       renovate:
         specifier: ^39.0.0
-        version: 39.238.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.240.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2213,8 +2213,8 @@ packages:
   parse-link-header@2.0.0:
     resolution: {integrity: sha512-xjU87V0VyHZybn2RrCX5TIFGxTVZE6zqqZWMPlIKiSKuWh/X5WZdt+w1Ki1nXB+8L/KtL+nZ4iq+sfI6MrhhMw==}
 
-  parse-path@7.0.3:
-    resolution: {integrity: sha512-0R71msgRgmkcZ5CWnzS+GPXJ1Fc+lbKyPDuA83Ej0QKCpf/Feieh813bF38My3CTNBzcQhtRRqvXNpCFF6FRMQ==}
+  parse-path@7.1.0:
+    resolution: {integrity: sha512-EuCycjZtfPcjWk7KTksnJ5xPMvWGA/6i4zrLYhRG0hGvC3GPU/jGUj3Cy+ZR0v30duV3e23R95T1lE2+lsndSw==}
 
   parse-url@9.2.0:
     resolution: {integrity: sha512-bCgsFI+GeGWPAvAiUv63ZorMeif3/U0zaXABGJbOWt5OH2KCaPHF6S+0ok4aqM9RuIPGyZdx9tR9l13PsW4AYQ==}
@@ -2370,8 +2370,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.238.2:
-    resolution: {integrity: sha512-cmdetIfSWEdJz/TBUrkXmSKlIo8HHtDJWxzX7DwVWNZaWvgXDCCTOxuDzHLap1/htNeGoj11drWSjNhOAqb2wQ==}
+  renovate@39.240.0:
+    resolution: {integrity: sha512-miHgmCzbtTEHxc0mjpvLGr02OwD/ffHI1P/R7ljPBuV6xu96vDHdoG88FhQfL7Za5mZXGpDwwnt+OCteW1xk5g==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5965,14 +5965,14 @@ snapshots:
     dependencies:
       xtend: 4.0.2
 
-  parse-path@7.0.3:
+  parse-path@7.1.0:
     dependencies:
       protocols: 2.0.2
 
   parse-url@9.2.0:
     dependencies:
       '@types/parse-path': 7.0.3
-      parse-path: 7.0.3
+      parse-path: 7.1.0
 
   path-exists@4.0.0: {}
 
@@ -6166,7 +6166,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.238.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.240.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
