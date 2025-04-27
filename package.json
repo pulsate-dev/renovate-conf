@@ -3,7 +3,7 @@
   "description": "renovate config for Pulsate Project",
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@10.8.1",
+  "packageManager": "pnpm@10.9.0",
   "engines": {
     "node": "22.15.0"
   },
