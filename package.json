@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "lefthook": "^1.6.1",
-    "renovate": "^39.0.0"
+    "renovate": "^40.0.0"
   }
 }
