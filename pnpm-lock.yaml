@@ -13,7 +13,7 @@ importers:
         version: 1.12.0
       renovate:
         specifier: ^41.0.0
-        version: 41.24.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.25.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -836,8 +836,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.0.12':
-    resolution: {integrity: sha512-LtOrbvDf5ndC9Xi+4QZjVL0woFymF/xSTKZKPgrrl7H7XoeDvnD+E2IclKVDyaK9UM756W/3BXqSU+JEHopA9g==}
+  '@types/node@24.0.13':
+    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2488,8 +2488,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.24.0:
-    resolution: {integrity: sha512-0o51g3RiIsvI/N0JTblTL02xdL6SodqtqjLEn27C71R4P6BmeDHYXGfCICPxNnxjZrZgCQPaZNfcpmXKMZ7plw==}
+  renovate@41.25.0:
+    resolution: {integrity: sha512-0bxXoSS/5ZyWwJFyX+Yu+5fkH/DynxiCED02spKJC/YGUZ/7j53dbxePsbRsnDzgcWVt42f27ue/ZwadeIKmQw==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2637,8 +2637,8 @@ packages:
     resolution: {integrity: sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==}
     engines: {node: '>= 14'}
 
-  socks@2.8.5:
-    resolution: {integrity: sha512-iF+tNDQla22geJdTyJB1wM/qrX9DMRwWrciEPwWLPRWAUEM8sQiyxgckLxWT1f7+9VabJS0jTGGr4QgBuvi6Ww==}
+  socks@2.8.6:
+    resolution: {integrity: sha512-pe4Y2yzru68lXCb38aAqRf5gvN8YdjP1lok5o0J7BOHljkyCGKVz7H3vpVIXKD27rj2giOJ7DwVyk/GWrPHDWA==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
   sort-keys@4.2.0:
@@ -2713,6 +2713,10 @@ packages:
   strip-json-comments@2.0.1:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
+
+  strip-json-comments@5.0.2:
+    resolution: {integrity: sha512-4X2FR3UwhNUE9G49aIsJW5hRRR3GXGTBTZRMfv568O60ojM8HcWjV/VxAxCDW3SUND33O6ZY66ZuRcdkj73q2g==}
+    engines: {node: '>=14.16'}
 
   strnum@1.1.2:
     resolution: {integrity: sha512-vrN+B7DBIoTTZjnPNewwhx6cBA/H+IS7rfW68n7XxC1y7uoiGQBxaKzqucGUgavX15dJgiGztLJ8vxuEzwqBdA==}
@@ -4573,13 +4577,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4592,7 +4596,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4604,7 +4608,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.0.12':
+  '@types/node@24.0.13':
     dependencies:
       undici-types: 7.8.0
 
@@ -4616,7 +4620,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
 
   '@types/semver@7.7.0': {}
 
@@ -4628,7 +4632,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
     optional: true
 
   '@yarnpkg/core@4.4.2(typanion@3.14.0)':
@@ -6347,7 +6351,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.0.12
+      '@types/node': 24.0.13
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6471,7 +6475,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.24.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.25.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.840.0
       '@aws-sdk/client-ec2': 3.840.0
@@ -6580,6 +6584,7 @@ snapshots:
       simple-git: 3.28.0
       slugify: 1.6.6
       source-map-support: 0.5.21
+      strip-json-comments: 5.0.2
       toml-eslint-parser: 0.10.0
       tslib: 2.8.1
       upath: 2.0.1
@@ -6756,12 +6761,12 @@ snapshots:
     dependencies:
       agent-base: 7.1.4
       debug: 4.4.1
-      socks: 2.8.5
+      socks: 2.8.6
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  socks@2.8.5:
+  socks@2.8.6:
     dependencies:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
@@ -6842,6 +6847,8 @@ snapshots:
 
   strip-json-comments@2.0.1:
     optional: true
+
+  strip-json-comments@5.0.2: {}
 
   strnum@1.1.2: {}
 
