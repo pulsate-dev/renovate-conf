@@ -13,7 +13,7 @@ importers:
         version: 1.12.2
       renovate:
         specifier: ^41.0.0
-        version: 41.42.6(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.42.12(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2488,8 +2488,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.42.6:
-    resolution: {integrity: sha512-C+/9f6BfmW57TRaxnWcVcx/2uK+Hh8jJjWimMVOMXozhmu1qDtqpTUJJ0xSaPYzJjeBVQyKIeDpYjlv9OBsyEA==}
+  renovate@41.42.12:
+    resolution: {integrity: sha512-yrPMKUEy1N0LBkL7EY1lxPo+yy7zt4rMwvIkCLMETz3hj5lLIgJD8KvXnCisZl3whNDgoROYy1VbiCHToNCS/Q==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2907,8 +2907,8 @@ packages:
     resolution: {integrity: sha512-OaI//3H0J7ZkR1OqlhGA8cA+Cbk/2xFOQpJOt5+s27/ta9eZwpeervh4Mxh4w0im/kdgktowaqVNR7QOrUd7Yg==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  vfile-message@4.0.2:
-    resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==}
+  vfile-message@4.0.3:
+    resolution: {integrity: sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw==}
 
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
@@ -6475,7 +6475,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.42.6(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.42.12(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.840.0
       '@aws-sdk/client-ec2': 3.840.0
@@ -7056,7 +7056,7 @@ snapshots:
 
   validate-npm-package-name@6.0.1: {}
 
-  vfile-message@4.0.2:
+  vfile-message@4.0.3:
     dependencies:
       '@types/unist': 3.0.3
       unist-util-stringify-position: 4.0.0
@@ -7064,7 +7064,7 @@ snapshots:
   vfile@6.0.3:
     dependencies:
       '@types/unist': 3.0.3
-      vfile-message: 4.0.2
+      vfile-message: 4.0.3
 
   vuln-vects@1.1.0: {}
 
