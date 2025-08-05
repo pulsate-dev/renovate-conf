@@ -13,7 +13,7 @@ importers:
         version: 1.12.2
       renovate:
         specifier: ^41.0.0
-        version: 41.50.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.51.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1125,8 +1125,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  core-js-pure@3.44.0:
-    resolution: {integrity: sha512-gvMQAGB4dfVUxpYD0k3Fq8J+n5bB6Ytl15lqlZrOIXFzxOhtPaObfkQGHtMRdyjIf7z2IeNULwi1jEwyS+ltKQ==}
+  core-js-pure@3.45.0:
+    resolution: {integrity: sha512-OtwjqcDpY2X/eIIg1ol/n0y/X8A9foliaNt1dSK0gV3J2/zw+89FcNG3mPK+N8YWts4ZFUPxnrAzsxs/lf8yDA==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -2488,8 +2488,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.50.0:
-    resolution: {integrity: sha512-Qi1dLKN8siF2sdjM+oRPi4xVxPpq2Ts+jdyaoZpqoEkbeZtjGLmixGHK570bVKUvNbXz0IWnvKs1Hx2wiQSBiQ==}
+  renovate@41.51.0:
+    resolution: {integrity: sha512-U1R3ajOi+3XO30VzEqfniN67/u/WikHVqE751GSp2jQTV7vkjJd2qejnjSXPQGaX65qLEbRrQ/pO81c9imWRLA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3826,7 +3826,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.28.2':
     dependencies:
-      core-js-pure: 3.44.0
+      core-js-pure: 3.45.0
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -4926,7 +4926,7 @@ snapshots:
       meow: 7.1.1
       through2-concurrent: 2.0.0
 
-  core-js-pure@3.44.0: {}
+  core-js-pure@3.45.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -6476,7 +6476,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.50.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.51.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
