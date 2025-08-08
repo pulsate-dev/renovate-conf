@@ -13,7 +13,7 @@ importers:
         version: 1.12.2
       renovate:
         specifier: ^41.0.0
-        version: 41.52.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.53.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -836,8 +836,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.2.0':
-    resolution: {integrity: sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==}
+  '@types/node@24.2.1':
+    resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2491,8 +2491,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.52.0:
-    resolution: {integrity: sha512-6ioCswI8X+2ORcNWT+1N20UK7TzYv1lMP6RlYjqRvAwtDWX9KYMiNxE+lnbst1pDM3yF4cUTMjqGoFTwokPohg==}
+  renovate@41.53.0:
+    resolution: {integrity: sha512-5nFEoNYQzMLiaoZ2vVxNz2vZfd7if91uG2ivlTl9Hy55HAr7LR8ZKqZN0sw01l2zmUsxNXpwb2pal4mfy9oZeQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4584,13 +4584,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4603,7 +4603,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4615,7 +4615,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.2.0':
+  '@types/node@24.2.1':
     dependencies:
       undici-types: 7.10.0
 
@@ -4627,7 +4627,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/semver@7.7.0': {}
 
@@ -4639,7 +4639,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
     optional: true
 
   '@yarnpkg/core@4.4.2(typanion@3.14.0)':
@@ -6379,7 +6379,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6503,7 +6503,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.52.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.53.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
