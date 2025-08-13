@@ -13,7 +13,7 @@ importers:
         version: 1.12.2
       renovate:
         specifier: ^41.0.0
-        version: 41.55.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.60.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -408,24 +408,24 @@ packages:
     resolution: {integrity: sha512-9rHKCMRvhfv7TSAVSCVLI+8OZhi1OcT8lanAGqOPbGgQTkFrPH3PfEWJNxz43xqrXRa4HCFRAMu+g19su5eRLA==}
     engines: {node: '>=18.12'}
 
-  '@pnpm/catalogs.resolver@1000.0.4':
-    resolution: {integrity: sha512-R3B513UeyKyKv+6h2ZVUjBtW67VMamkFJ8FDIUvSu2mjvPOFtmD62GX8QWzzoFBLdpPLFJ28WJ70yuYo4GtcKg==}
+  '@pnpm/catalogs.resolver@1000.0.5':
+    resolution: {integrity: sha512-h6UiDAu/Ztj0LCd9sqmJwSWvJYTMUuxo/+/Iz2WZuWboyUI+2BylWJvokkMG4hNlvroLzBQ5+cz9/e+TDSLpoA==}
     engines: {node: '>=18.12'}
 
   '@pnpm/catalogs.types@1000.0.0':
     resolution: {integrity: sha512-xRf72lk7xHNvbenA4sp4Of/90QDdRW0CRYT+V+EbqpUXu1xsXtedHai34cTU6VGe7C1hUukxxE9eYTtIpYrx5g==}
     engines: {node: '>=18.12'}
 
-  '@pnpm/constants@1001.2.0':
-    resolution: {integrity: sha512-ohlStawRU3+C1AvUPtfkK+HfZ/5UbDGO79dujS2dbTpzl3O03L3Ggk7nnH361ubbMYZqp4yWlX030xhMGpr8Nw==}
+  '@pnpm/constants@1001.3.0':
+    resolution: {integrity: sha512-ZFRekNHbDlu//67Byg+mG8zmtmCsfBhNsg1wKBLRtF7VjH+Q5TDGMX0+8aJYSikQDuzM2FOhvQcDwyjILKshJQ==}
     engines: {node: '>=18.12'}
 
   '@pnpm/constants@6.1.0':
     resolution: {integrity: sha512-L6AiU3OXv9kjKGTJN9j8n1TeJGDcLX9atQlZvAkthlvbXjvKc5SKNWESc/eXhr5nEfuMWhQhiKHDJCpYejmeCQ==}
     engines: {node: '>=14.19'}
 
-  '@pnpm/error@1000.0.3':
-    resolution: {integrity: sha512-Sr1wmJitZ768J+9MJVXXyd7tRaX3qThEiFH1K0AQovy2sIbLqo73MITphfVZH3YWIElt+Y1uMDnUZa676ZDA8g==}
+  '@pnpm/error@1000.0.4':
+    resolution: {integrity: sha512-22mG/Mq4u2r7gr2+XY5j4GlN7J4Mg4WiCfT9flvsUc1uZecShocv6WkyoA20qs14M64f6I+aaWB6b6xsDiITlg==}
     engines: {node: '>=18.12'}
 
   '@pnpm/error@4.0.0':
@@ -436,8 +436,8 @@ packages:
     resolution: {integrity: sha512-ogUZCGf0/UILZt6d8PsO4gA4pXh7f0BumXeFkcCe4AQ65PXPKfAkHC0C30Lheh2EgFOpLZm3twDP1Eiww18gew==}
     engines: {node: '>=14.19'}
 
-  '@pnpm/parse-overrides@1001.0.1':
-    resolution: {integrity: sha512-wmdLw+2U9hnQoPYKZdyWoK0DQjUsJGLP9FLbsJEylpaNtrmhrjkbcGdQDrVg/gpTIit+TIL3mDMG9qTlWNZnWA==}
+  '@pnpm/parse-overrides@1001.0.2':
+    resolution: {integrity: sha512-1GgUm9XJpEKQvaWGd8N55c9SlGzViN16vSC/F6FU2o28SPwOgw1aOs1A8v5hcQOWL3iEk1N/s9z0Zruq+2pqzw==}
     engines: {node: '>=18.12'}
 
   '@pnpm/parse-wanted-dependency@1001.0.0':
@@ -952,8 +952,8 @@ packages:
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
 
-  azure-devops-node-api@15.1.0:
-    resolution: {integrity: sha512-zlZ387CISkSKK1vjBv53kzR5fnzA60SxYrejypZawefZWvrjC28zyM/iKSP5b+iYl+Z7OOlm+Rgl6YsMecK6fg==}
+  azure-devops-node-api@15.1.1:
+    resolution: {integrity: sha512-ohL2CY+zRAItKvwkHhefYxjr0Hndu6s8qKwyl0+wL4Ol6c4UrsI3A3G6ZPwwK81c1Ga3dEXjeDg4aKV4hn9loA==}
     engines: {node: '>= 16.0.0'}
 
   backslash@0.2.0:
@@ -991,8 +991,8 @@ packages:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  bowser@2.11.0:
-    resolution: {integrity: sha512-AlcaJBi/pqqJBIQ8U9Mcpc9i8Aqxn88Skv5d+xBX006BY5u8N3mGLHa5Lgppa7L/HfwgwLgZ6NYs+Ag6uUmJRA==}
+  bowser@2.12.0:
+    resolution: {integrity: sha512-HcOcTudTeEWgbHh0Y1Tyb6fdeR71m4b/QACf0D4KswGTsNeIJQmg38mRENZPAYPZvGFN3fk3604XbQEPdxXdKg==}
 
   brace-expansion@1.1.12:
     resolution: {integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==}
@@ -1671,8 +1671,8 @@ packages:
     resolution: {integrity: sha512-+y6WywKZREw5rq7U2jvr2nmZpT7cbWbQQ0N/qfcseYnzHFz2cZz1Et52oY+XttYuYeTkI8Y+R2JNWj68MpQFSg==}
     hasBin: true
 
-  ip-address@9.0.5:
-    resolution: {integrity: sha512-zHtQzGojZXTwZTHQqra+ETKd4Sn3vgi7uBmlPoXVWZqYvuKmtI0l/VZTjqGmJY9x88GGOaZ9+G9ES8hC4T4X8g==}
+  ip-address@10.0.1:
+    resolution: {integrity: sha512-NWv9YLW4PoW2B7xtzaS3NCot75m6nK7Icdv0o3lfMceJVRfSoQwqD4wEH5rLwoKJwUiZ/rfpiVBhnaF0FK4HoA==}
     engines: {node: '>= 12'}
 
   is-arguments@1.2.0:
@@ -1775,9 +1775,6 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
-  jsbn@1.1.0:
-    resolution: {integrity: sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==}
-
   json-bigint@1.0.0:
     resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
 
@@ -1801,15 +1798,15 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jsonata@2.0.6:
-    resolution: {integrity: sha512-WhQB5tXQ32qjkx2GYHFw2XbL90u+LLzjofAYwi+86g6SyZeXHz9F1Q0amy3dWRYczshOC3Haok9J4pOCgHtwyQ==}
+  jsonata@2.1.0:
+    resolution: {integrity: sha512-OCzaRMK8HobtX8fp37uIVmL8CY1IGc/a6gLsDqz3quExFR09/U78HUzWYr7T31UEB6+Eu0/8dkVD5fFDOl9a8w==}
     engines: {node: '>= 8'}
 
   jsonc-parser@3.3.1:
     resolution: {integrity: sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==}
 
-  jsonfile@6.1.0:
-    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
+  jsonfile@6.2.0:
+    resolution: {integrity: sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==}
 
   jwa@2.0.1:
     resolution: {integrity: sha512-hRF04fqJIP8Abbkq5NKGN0Bbr3JxlQ+qhZufXVr0DvujKy93ZCbXZMHDL4EOtodSbCWxOqR8MS1tXA5hwqCXDg==}
@@ -2491,8 +2488,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.55.0:
-    resolution: {integrity: sha512-23RvMHJ5VfvO/ggggFlnhlWJiHqxkazzMXG/5o2sJebmh8t8p9/bsR7XsHgv73Ei4s7OQp77TJosxTBUSXk/9g==}
+  renovate@41.60.4:
+    resolution: {integrity: sha512-8i04vC7Sm+lgYkqMOrraXen0IuY9u9Pr0DHr1fCWqDIqxTP0XlcTyh0vDw8Y/IieJR34gv1GtAcZnM0rQmaV6g==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2640,8 +2637,8 @@ packages:
     resolution: {integrity: sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==}
     engines: {node: '>= 14'}
 
-  socks@2.8.6:
-    resolution: {integrity: sha512-pe4Y2yzru68lXCb38aAqRf5gvN8YdjP1lok5o0J7BOHljkyCGKVz7H3vpVIXKD27rj2giOJ7DwVyk/GWrPHDWA==}
+  socks@2.8.7:
+    resolution: {integrity: sha512-HLpt+uLy/pxB+bum/9DzAgiKS8CX1EvbWxI4zlmgGCExImLdiad2iCwXT5Z4c9c3Eq8rP2318mPW2c+QbtjK8A==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
   sort-keys@4.2.0:
@@ -3803,7 +3800,7 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.840.0
       '@smithy/types': 4.3.2
-      bowser: 2.11.0
+      bowser: 2.12.0
       tslib: 2.8.1
 
   '@aws-sdk/util-user-agent-node@3.858.0':
@@ -4036,20 +4033,20 @@ snapshots:
 
   '@pnpm/catalogs.protocol-parser@1001.0.0': {}
 
-  '@pnpm/catalogs.resolver@1000.0.4':
+  '@pnpm/catalogs.resolver@1000.0.5':
     dependencies:
       '@pnpm/catalogs.protocol-parser': 1001.0.0
-      '@pnpm/error': 1000.0.3
+      '@pnpm/error': 1000.0.4
 
   '@pnpm/catalogs.types@1000.0.0': {}
 
-  '@pnpm/constants@1001.2.0': {}
+  '@pnpm/constants@1001.3.0': {}
 
   '@pnpm/constants@6.1.0': {}
 
-  '@pnpm/error@1000.0.3':
+  '@pnpm/error@1000.0.4':
     dependencies:
-      '@pnpm/constants': 1001.2.0
+      '@pnpm/constants': 1001.3.0
 
   '@pnpm/error@4.0.0':
     dependencies:
@@ -4059,11 +4056,11 @@ snapshots:
     dependencies:
       graceful-fs: 4.2.11
 
-  '@pnpm/parse-overrides@1001.0.1':
+  '@pnpm/parse-overrides@1001.0.2':
     dependencies:
-      '@pnpm/catalogs.resolver': 1000.0.4
+      '@pnpm/catalogs.resolver': 1000.0.5
       '@pnpm/catalogs.types': 1000.0.0
-      '@pnpm/error': 1000.0.3
+      '@pnpm/error': 1000.0.4
       '@pnpm/parse-wanted-dependency': 1001.0.0
 
   '@pnpm/parse-wanted-dependency@1001.0.0':
@@ -4476,7 +4473,7 @@ snapshots:
       '@smithy/property-provider': 4.0.5
       '@smithy/smithy-client': 4.4.10
       '@smithy/types': 4.3.2
-      bowser: 2.11.0
+      bowser: 2.12.0
       tslib: 2.8.1
 
   '@smithy/util-defaults-mode-node@4.0.26':
@@ -4748,7 +4745,7 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  azure-devops-node-api@15.1.0:
+  azure-devops-node-api@15.1.1:
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 2.1.0
@@ -4787,7 +4784,7 @@ snapshots:
 
   boolean@3.2.0: {}
 
-  bowser@2.11.0: {}
+  bowser@2.12.0: {}
 
   brace-expansion@1.1.12:
     dependencies:
@@ -5230,7 +5227,7 @@ snapshots:
   fs-extra@11.3.0:
     dependencies:
       graceful-fs: 4.2.11
-      jsonfile: 6.1.0
+      jsonfile: 6.2.0
       universalify: 2.0.1
 
   fs-minipass@2.1.0:
@@ -5539,10 +5536,7 @@ snapshots:
   install-artifact-from-github@1.4.0:
     optional: true
 
-  ip-address@9.0.5:
-    dependencies:
-      jsbn: 1.1.0
-      sprintf-js: 1.1.3
+  ip-address@10.0.1:
     optional: true
 
   is-arguments@1.2.0:
@@ -5633,9 +5627,6 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsbn@1.1.0:
-    optional: true
-
   json-bigint@1.0.0:
     dependencies:
       bignumber.js: 9.3.1
@@ -5654,11 +5645,11 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jsonata@2.0.6: {}
+  jsonata@2.1.0: {}
 
   jsonc-parser@3.3.1: {}
 
-  jsonfile@6.1.0:
+  jsonfile@6.2.0:
     dependencies:
       universalify: 2.0.1
     optionalDependencies:
@@ -6503,7 +6494,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.55.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.60.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
@@ -6529,7 +6520,7 @@ snapshots:
       '@opentelemetry/sdk-trace-base': 2.0.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-node': 2.0.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.36.0
-      '@pnpm/parse-overrides': 1001.0.1
+      '@pnpm/parse-overrides': 1001.0.2
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
@@ -6543,7 +6534,7 @@ snapshots:
       async-mutex: 0.5.0
       auth-header: 1.0.0
       aws4: 1.13.2
-      azure-devops-node-api: 15.1.0
+      azure-devops-node-api: 15.1.1
       bunyan: 1.8.15
       cacache: 20.0.0
       chalk: 5.4.1
@@ -6580,7 +6571,7 @@ snapshots:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 4.0.0
       json5: 2.2.3
-      jsonata: 2.0.6
+      jsonata: 2.1.0
       jsonc-parser: 3.3.1
       klona: 2.0.6
       luxon: 3.7.1
@@ -6789,14 +6780,14 @@ snapshots:
     dependencies:
       agent-base: 7.1.4
       debug: 4.4.1
-      socks: 2.8.6
+      socks: 2.8.7
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  socks@2.8.6:
+  socks@2.8.7:
     dependencies:
-      ip-address: 9.0.5
+      ip-address: 10.0.1
       smart-buffer: 4.2.0
     optional: true
 
