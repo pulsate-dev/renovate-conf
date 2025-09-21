@@ -13,7 +13,7 @@ importers:
         version: 1.13.1
       renovate:
         specifier: ^41.0.0
-        version: 41.116.3(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.116.9(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -354,8 +354,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
 
-  '@opentelemetry/resource-detector-gcp@0.39.0':
-    resolution: {integrity: sha512-TUgYTZ7AUIk1kZYaozXyoLQ3YQjrp/IByo9rlObQXeo+tJ8qcXErq0NYn/43/xwAxNFG3Utv2h0hcL7TzSrjuQ==}
+  '@opentelemetry/resource-detector-gcp@0.40.0':
+    resolution: {integrity: sha512-uAsUV8K4R9OJ3cgPUGYDqQByxOMTz4StmzJyofIv7+W+c1dTSEc1WVjWpTS2PAmywik++JlSmd8O4rMRJZpO8Q==}
     engines: {node: ^18.19.0 || >=20.6.0}
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
@@ -545,9 +545,9 @@ packages:
     resolution: {integrity: sha512-hT7WcjHbZdx3U9iRKuGwgm1l2wFS+FrWEdX+EQ5i+VAI6tWdcktFtdwDTNIqSwklOW1Vng55om8c4RrPHCmiIQ==}
     engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^10.0.0}
 
-  '@renovatebot/ruby-semver@4.1.0':
-    resolution: {integrity: sha512-7yee1ceXSLy/fAyQtNgdqjrajMz66UyXypMfdsJGAJQf2nzr8UgXUpcnV5pZmE4MeKGWI9jKL1GFFwadBBQnEw==}
-    engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^9.0.0}
+  '@renovatebot/ruby-semver@4.1.2':
+    resolution: {integrity: sha512-zTK2X2r6fQTgQ1lqM0jaF/MgxmXCp0UrfiE1Ks3rQOBQjci4Xez1Zzsy4MgtjhMiHcdDi4lbBvtlPnksvEU8GQ==}
+    engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^10.0.0}
 
   '@seald-io/binary-search-tree@1.0.3':
     resolution: {integrity: sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==}
@@ -2544,8 +2544,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.116.3:
-    resolution: {integrity: sha512-rj/gRdSL8iBOv7dEKHMdjKAgZZ9eOfMr2O/whX4NgoPLQ0st1cWDurRmjUUqw/prcTgAO8scPN0B8nj9mHTUVw==}
+  renovate@41.116.9:
+    resolution: {integrity: sha512-q/wZT1/sj4hYXQg5Lca+I9cKyJjFAEE7GEHc3FOlt1xlZJgcQd1Env6yFIRRnip7h5iHyqtsA88cS+Y/OBElWg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4031,7 +4031,7 @@ snapshots:
       '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.37.0
 
-  '@opentelemetry/resource-detector-gcp@0.39.0(@opentelemetry/api@1.9.0)(encoding@0.1.13)':
+  '@opentelemetry/resource-detector-gcp@0.40.0(@opentelemetry/api@1.9.0)(encoding@0.1.13)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 2.1.0(@opentelemetry/api@1.9.0)
@@ -4242,7 +4242,7 @@ snapshots:
 
   '@renovatebot/pep440@4.2.0': {}
 
-  '@renovatebot/ruby-semver@4.1.0': {}
+  '@renovatebot/ruby-semver@4.1.2': {}
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
@@ -6688,7 +6688,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.116.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.116.9(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -6708,7 +6708,7 @@ snapshots:
       '@opentelemetry/instrumentation-http': 0.205.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resource-detector-aws': 2.5.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resource-detector-azure': 0.12.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/resource-detector-gcp': 0.39.0(@opentelemetry/api@1.9.0)(encoding@0.1.13)
+      '@opentelemetry/resource-detector-gcp': 0.40.0(@opentelemetry/api@1.9.0)(encoding@0.1.13)
       '@opentelemetry/resource-detector-github': 0.31.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
@@ -6720,7 +6720,7 @@ snapshots:
       '@renovatebot/kbpgp': 4.0.1
       '@renovatebot/osv-offline': 1.6.10
       '@renovatebot/pep440': 4.2.0
-      '@renovatebot/ruby-semver': 4.1.0
+      '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.0.2
       '@yarnpkg/core': 4.4.3(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
