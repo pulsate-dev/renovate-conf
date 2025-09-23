@@ -13,7 +13,7 @@ importers:
         version: 1.13.1
       renovate:
         specifier: ^41.0.0
-        version: 41.118.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.120.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2539,8 +2539,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.118.2:
-    resolution: {integrity: sha512-i783fGE3etYb9mJB/eFuWVhUlCMtk++1jifnoOFX5T9yoX5ZE2UcArViSogZBGjt5YrGw9YZqiFSN3R3xA8eMA==}
+  renovate@41.120.0:
+    resolution: {integrity: sha512-cKoVHcGiucFQtkv9+wc44l2WdmBluOwKRTWz7dBEYBRy4tRcW7TRlkJNAKhRhm8t4oENsqpFA0eDpPERKJ721A==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2791,8 +2791,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  tar@7.4.4:
-    resolution: {integrity: sha512-O1z7ajPkjTgEgmTGz0v9X4eqeEXTDREPTO77pVC1Nbs86feBU1Zhdg+edzavPmYW1olxkwsqA2v4uOw6E8LeDg==}
+  tar@7.5.0:
+    resolution: {integrity: sha512-StRGMxeVwyozZpAmHLm2IfbwUlE21DbRXyZrYpGPFBVxM8cxALPongxFVMrs+HqCN7jQVVKyAgKOwGB1WbCp4A==}
     engines: {node: '>=18'}
 
   through2-concurrent@2.0.0:
@@ -4888,7 +4888,7 @@ snapshots:
       minipass-pipeline: 1.2.4
       p-map: 7.0.3
       ssri: 12.0.0
-      tar: 7.4.4
+      tar: 7.5.0
       unique-filename: 4.0.0
     optional: true
 
@@ -6351,7 +6351,7 @@ snapshots:
       nopt: 8.1.0
       proc-log: 5.0.0
       semver: 7.7.2
-      tar: 7.4.4
+      tar: 7.5.0
       tinyglobby: 0.2.15
       which: 5.0.0
     transitivePeerDependencies:
@@ -6680,7 +6680,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.118.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.120.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -7090,7 +7090,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  tar@7.4.4:
+  tar@7.5.0:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
