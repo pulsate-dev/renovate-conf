@@ -10,7 +10,7 @@
   "semanticCommitType": "chore",
   "minimumReleaseAge": "3 days",
   "timezone": "Asia/Tokyo",
-  "enabledManagers": ["npm", "asdf", "github-actions", "docker-compose"],
+  "enabledManagers": ["npm", "asdf", "mise", "github-actions", "docker-compose"],
   "reviewers": ["team:developer-team"],
   "labels": ["T: renovate"],
   "extends": ["config:base"],
