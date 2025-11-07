@@ -13,7 +13,7 @@ importers:
         version: 2.0.2
       renovate:
         specifier: ^41.0.0
-        version: 41.169.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.169.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -873,8 +873,8 @@ packages:
     resolution: {integrity: sha512-0bcUFx4wzq0szvInY0PkzqjsAlM69lgzOsEbltbiyE6q/h0hRb1oOHWSBvq7rUGA+Ob5vuyhoDYWyyXY/1W4VQ==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/fslib@3.1.3':
-    resolution: {integrity: sha512-LqfyD3r/8SJm8rPPfmGVHfp4Ag2xTKscDwihOJt+QNrtOeaLykikqKWoBVRBw1cCIbtU7kjT7l1JcWW26hAKtA==}
+  '@yarnpkg/fslib@3.1.4':
+    resolution: {integrity: sha512-Yyguw5RM+xI1Bv0RFbs1ZF5HwU+9/He4YT7yeT722yAlLfkz9IzZHO6a5yStEshxiliPn9Fdj4H54a785xpK/g==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/libzip@3.2.2':
@@ -2545,8 +2545,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.169.2:
-    resolution: {integrity: sha512-4wyUWYhyV6x20n2BRtkYAgzWXv5geG2eT6XJaK7fY3Gxm4FRAKHONCNicBAfSVIU2rbl0l6aFbXlbzaGYjF3OA==}
+  renovate@41.169.4:
+    resolution: {integrity: sha512-ZAJwmShbUv2gBvUxemm8qIDbMqzh1JnsYJ6siProYuPywrxTXIyeuiasgcgHZn+8kSULYrum5Ze58t08E4rS3Q==}
     engines: {node: ^22.13.0 || ^24.10.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4694,8 +4694,8 @@ snapshots:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.1
       '@types/treeify': 1.0.3
-      '@yarnpkg/fslib': 3.1.3
-      '@yarnpkg/libzip': 3.2.2(@yarnpkg/fslib@3.1.3)
+      '@yarnpkg/fslib': 3.1.4
+      '@yarnpkg/libzip': 3.2.2(@yarnpkg/fslib@3.1.4)
       '@yarnpkg/parsers': 3.0.3
       '@yarnpkg/shell': 4.1.3(typanion@3.14.0)
       camelcase: 5.3.1
@@ -4720,14 +4720,14 @@ snapshots:
     transitivePeerDependencies:
       - typanion
 
-  '@yarnpkg/fslib@3.1.3':
+  '@yarnpkg/fslib@3.1.4':
     dependencies:
       tslib: 2.8.1
 
-  '@yarnpkg/libzip@3.2.2(@yarnpkg/fslib@3.1.3)':
+  '@yarnpkg/libzip@3.2.2(@yarnpkg/fslib@3.1.4)':
     dependencies:
       '@types/emscripten': 1.41.5
-      '@yarnpkg/fslib': 3.1.3
+      '@yarnpkg/fslib': 3.1.4
       tslib: 2.8.1
 
   '@yarnpkg/parsers@3.0.3':
@@ -4737,7 +4737,7 @@ snapshots:
 
   '@yarnpkg/shell@4.1.3(typanion@3.14.0)':
     dependencies:
-      '@yarnpkg/fslib': 3.1.3
+      '@yarnpkg/fslib': 3.1.4
       '@yarnpkg/parsers': 3.0.3
       chalk: 4.1.2
       clipanion: 4.0.0-rc.4(typanion@3.14.0)
@@ -6677,7 +6677,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.169.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.169.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.922.0
       '@aws-sdk/client-ec2': 3.922.0
