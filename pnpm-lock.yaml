@@ -13,7 +13,7 @@ importers:
         version: 2.0.4
       renovate:
         specifier: ^42.0.0
-        version: 42.18.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.19.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1005,8 +1005,8 @@ packages:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  bowser@2.12.1:
-    resolution: {integrity: sha512-z4rE2Gxh7tvshQ4hluIT7XcFrgLIQaw9X3A+kTTRdovCz5PMukm/0QC/BKSYPj3omF5Qfypn9O/c5kgpmvYUCw==}
+  bowser@2.13.0:
+    resolution: {integrity: sha512-yHAbSRuT6LTeKi6k2aS40csueHqgAsFEgmrOsfRyFpJnFv5O2hl9FYmWEUZ97gZ/dG17U4IQQcTx4YAFYPuWRQ==}
 
   brace-expansion@1.1.12:
     resolution: {integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==}
@@ -2513,8 +2513,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.18.0:
-    resolution: {integrity: sha512-IJx0p5X/kW//QrXL9ZuYSPwgcobZdd6F7PF0JlMM8TGgbOUw1SxKaAqfFsNDyBZRdaMU13HopjFVgKRcn6cUPg==}
+  renovate@42.19.3:
+    resolution: {integrity: sha512-xDMJXEMYS+mMQlN9CamwygTG4+qVH+jq3Ivj4TymK01sThcCDCVvRJ9sXZsenrYuCpCKdsXeM+xrkQUaqX3HtA==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3809,7 +3809,7 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.922.0
       '@smithy/types': 4.9.0
-      bowser: 2.12.1
+      bowser: 2.13.0
       tslib: 2.8.1
 
   '@aws-sdk/util-user-agent-node@3.922.0':
@@ -4791,7 +4791,7 @@ snapshots:
 
   boolean@3.2.0: {}
 
-  bowser@2.12.1: {}
+  bowser@2.13.0: {}
 
   brace-expansion@1.1.12:
     dependencies:
@@ -6593,7 +6593,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.18.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.19.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.922.0
       '@aws-sdk/client-ec2': 3.922.0
