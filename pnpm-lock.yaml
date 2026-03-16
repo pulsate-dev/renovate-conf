@@ -13,7 +13,7 @@ importers:
         version: 2.1.4
       renovate:
         specifier: ^43.0.0
-        version: 43.64.6(typanion@3.14.0)
+        version: 43.69.0(typanion@3.14.0)
 
 packages:
 
@@ -542,8 +542,8 @@ packages:
     resolution: {integrity: sha512-dSbrkSS9/NfNwhOgQ0rpKA9KNiKSFhgK707Wi+oX8SZLqvu8dvsVuzORbKOYq5eX4nSiwrHApWisecw0cZhjVQ==}
     engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^10.0.0}
 
-  '@renovatebot/pgp@1.3.3':
-    resolution: {integrity: sha512-xjZm2Tdq0+1skdtsytzgxF/3Rse8y1aMwS29SPQCSW/2K1WT1Kf3X209FiFRt4ilNT6d+DVDXyxmy9Z9dDLaQw==}
+  '@renovatebot/pgp@1.3.4':
+    resolution: {integrity: sha512-8kpBO48AjOOW0g/Pxo2qqUTsizKMUHFHUkHl8rw2eD0YZULosVxt22NS8PPHHfZ58Opm/aggCAJLHa9yXlHjVA==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: ^10.0.0}
 
   '@renovatebot/ruby-semver@4.1.2':
@@ -1376,8 +1376,8 @@ packages:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
 
-  fast-xml-builder@1.1.3:
-    resolution: {integrity: sha512-1o60KoFw2+LWKQu3IdcfcFlGTW4dpqEWmjhYec6H82AYZU2TVBXep6tMl8Z1Y+wM+ZrzCwe3BZ9Vyd9N2rIvmg==}
+  fast-xml-builder@1.1.4:
+    resolution: {integrity: sha512-f2jhpN4Eccy0/Uz9csxh3Nu6q4ErKxf0XIsasomfOihuSUa3/xw6w8dnOtCDgEItQFJG8KyXPzQXzcODDrrbOg==}
 
   fast-xml-parser@5.4.1:
     resolution: {integrity: sha512-BQ30U1mKkvXQXXkAGcuyUA/GA26oEB7NzOtsxCDtyu62sjGw5QraKFhx2Em3WQNjPw9PG6MQ9yuIIgkSDfGu5A==}
@@ -2200,8 +2200,8 @@ packages:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
     engines: {node: '>= 10'}
 
-  node-abi@3.88.0:
-    resolution: {integrity: sha512-At6b4UqIEVudaqPsXjmUO1r/N5BUr4yhDGs5PkBE8/oG5+TfLPhFechiskFsnT6Ql0VfUXbalUUCbfXxtj7K+w==}
+  node-abi@3.89.0:
+    resolution: {integrity: sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==}
     engines: {node: '>=10'}
 
   node-domexception@1.0.0:
@@ -2489,8 +2489,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.64.6:
-    resolution: {integrity: sha512-pzaZK8sDOOIueztoCbfqI4fdga208kUuA1Lvf0wvn+YqwXXX4+hj6P8dqpE7iYvZA8PtD65AjD+ciBBwRC8jlw==}
+  renovate@43.69.0:
+    resolution: {integrity: sha512-TOw29swAKmNBH97rDKw1Z4v5TXi+ndj9pIhMpyF0xzHfvTIobA4lkUN7zXisPF6Of+Zii7wrcBabv7rYJDup9w==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4131,7 +4131,7 @@ snapshots:
 
   '@renovatebot/pep440@4.2.2': {}
 
-  '@renovatebot/pgp@1.3.3': {}
+  '@renovatebot/pgp@1.3.4': {}
 
   '@renovatebot/ruby-semver@4.1.2': {}
 
@@ -5099,13 +5099,13 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-  fast-xml-builder@1.1.3:
+  fast-xml-builder@1.1.4:
     dependencies:
       path-expression-matcher: 1.1.3
 
   fast-xml-parser@5.4.1:
     dependencies:
-      fast-xml-builder: 1.1.3
+      fast-xml-builder: 1.1.4
       strnum: 2.2.0
 
   fastq@1.20.1:
@@ -6134,7 +6134,7 @@ snapshots:
 
   neotraverse@0.6.18: {}
 
-  node-abi@3.88.0:
+  node-abi@3.89.0:
     dependencies:
       semver: 7.7.4
     optional: true
@@ -6321,7 +6321,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.88.0
+      node-abi: 3.89.0
       pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
@@ -6487,7 +6487,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.64.6(typanion@3.14.0):
+  renovate@43.69.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6521,7 +6521,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 1.2.0
       '@renovatebot/osv-offline': 2.2.1
       '@renovatebot/pep440': 4.2.2
-      '@renovatebot/pgp': 1.3.3
+      '@renovatebot/pgp': 1.3.4
       '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.2.0
       '@yarnpkg/core': 4.5.0(typanion@3.14.0)
