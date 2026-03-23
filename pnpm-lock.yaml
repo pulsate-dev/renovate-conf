@@ -13,7 +13,7 @@ importers:
         version: 2.1.4
       renovate:
         specifier: ^43.0.0
-        version: 43.83.0(typanion@3.14.0)
+        version: 43.84.0(typanion@3.14.0)
 
 packages:
 
@@ -2496,8 +2496,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.83.0:
-    resolution: {integrity: sha512-efrbeOxFohleYB2fhbyl/GwyE0H50P01aITPOcQl0ZxvCc0Ta7mj4OnCJKDoUi5bkcgIJoVz9od7kCco5Dgz2A==}
+  renovate@43.84.0:
+    resolution: {integrity: sha512-uFl0+cwKfCp7M0g5NSK2ON7JI7arz6qNJmMc5Ej8n0k9N/cbOppQ/gqdVxtAt2oAcgich4F/dzsV+HXjq+zfQg==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2727,8 +2727,8 @@ packages:
     resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
     engines: {node: '>=14.16'}
 
-  strnum@2.2.1:
-    resolution: {integrity: sha512-BwRvNd5/QoAtyW1na1y1LsJGQNvRlkde6Q/ipqqEaivoMdV+B1OMOTVdwR+N/cwVUcIt9PYyHmV8HyexCZSupg==}
+  strnum@2.2.2:
+    resolution: {integrity: sha512-DnR90I+jtXNSTXWdwrEy9FakW7UX+qUZg28gj5fk2vxxl7uS/3bpI4fjFYVmdK9etptYBPNkpahuQnEwhwECqA==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -5111,7 +5111,7 @@ snapshots:
     dependencies:
       fast-xml-builder: 1.1.4
       path-expression-matcher: 1.2.0
-      strnum: 2.2.1
+      strnum: 2.2.2
 
   fastq@1.20.1:
     dependencies:
@@ -6497,7 +6497,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.83.0(typanion@3.14.0):
+  renovate@43.84.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6863,7 +6863,7 @@ snapshots:
 
   strip-json-comments@5.0.3: {}
 
-  strnum@2.2.1: {}
+  strnum@2.2.2: {}
 
   supports-color@7.2.0:
     dependencies:
