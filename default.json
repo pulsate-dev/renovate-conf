@@ -10,10 +10,22 @@
   "semanticCommitType": "chore",
   "minimumReleaseAge": "3 days",
   "timezone": "Asia/Tokyo",
-  "enabledManagers": ["npm", "asdf", "mise", "github-actions", "dockerfile", "docker-compose"],
+  "enabledManagers": [
+    "npm",
+    "asdf",
+    "mise",
+    "github-actions",
+    "dockerfile",
+    "docker-compose"
+  ],
   "reviewers": ["team:developer-team"],
   "labels": ["T: renovate"],
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended",
+    "packages:eslint",
+    "packages:react",
+    "packages:vite"
+  ],
   "schedule": ["before 3am"],
   "rollback": {
     "autoApprove": false,
