@@ -13,7 +13,7 @@
   "enabledManagers": ["npm", "asdf", "mise", "github-actions", "dockerfile", "docker-compose"],
   "reviewers": ["team:developer-team"],
   "labels": ["T: renovate"],
-  "extends": ["config:base"],
+  "extends": ["config:base", "packages:eslint", "packages:react", "packages:vite"],
   "schedule": ["before 3am"],
   "rollback": {
     "autoApprove": false,
