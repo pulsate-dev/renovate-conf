@@ -54,6 +54,13 @@
       "matchUpdateTypes": ["major"],
       "autoApprove": false,
       "automerge": false
+    },
+    {
+      "groupName": "Cloudflare Wrangler packages",
+      "matchPackageNames": [
+        "wranger",
+        "@cloudflare/**"
+      ]
     }
   ]
 }
