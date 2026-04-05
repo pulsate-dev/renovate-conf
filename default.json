@@ -50,7 +50,7 @@
   },
   "packageRules": [
     {
-      "groupName": "Auto merge & approve disable rules",
+      "groupName": null,
       "matchUpdateTypes": ["major"],
       "autoApprove": false,
       "automerge": false
