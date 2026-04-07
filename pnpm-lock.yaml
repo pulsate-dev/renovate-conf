@@ -13,7 +13,7 @@ importers:
         version: 2.1.4
       renovate:
         specifier: ^43.0.0
-        version: 43.104.1(typanion@3.14.0)
+        version: 43.104.3(typanion@3.14.0)
 
 packages:
 
@@ -1757,8 +1757,8 @@ packages:
     resolution: {integrity: sha512-ozCC6gdQ+glXOQsveKD0YsDy8DSQFjDTz4zyzEHNV5+JP5D62LmfDZ6o1cycFx9ouG940M5dE8C8CTewdj2YWQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  lru-cache@11.3.1:
-    resolution: {integrity: sha512-Y71HWT4hydF1IAG/2OPync4dgQ/J2iWye7eg6CuzJHI+E97tvqFPlADzxiNnjH6WSljg8ecfXMr9k6bfFuqA5w==}
+  lru-cache@11.3.2:
+    resolution: {integrity: sha512-wgWa6FWQ3QRRJbIjbsldRJZxdxYngT/dO0I5Ynmlnin8qy7tC6xYzbcJjtN4wHLXtkbVwHzk0C+OejVw1XM+DQ==}
     engines: {node: 20 || >=22}
 
   luxon@3.7.2:
@@ -2150,8 +2150,8 @@ packages:
     resolution: {integrity: sha512-bCgsFI+GeGWPAvAiUv63ZorMeif3/U0zaXABGJbOWt5OH2KCaPHF6S+0ok4aqM9RuIPGyZdx9tR9l13PsW4AYQ==}
     engines: {node: '>=14.13.0'}
 
-  path-expression-matcher@1.2.1:
-    resolution: {integrity: sha512-d7gQQmLvAKXKXE2GeP9apIGbMYKz88zWdsn/BN2HRWVQsDFdUY36WSLTY0Jvd4HWi7Fb30gQ62oAOzdgJA6fZw==}
+  path-expression-matcher@1.4.0:
+    resolution: {integrity: sha512-s4DQMxIdhj3jLFWd9LxHOplj4p9yQ4ffMGowFf3cpEgrrJjEhN0V5nxw4Ye1EViAGDoL4/1AeO6qHpqYPOzE4Q==}
     engines: {node: '>=14.0.0'}
 
   path-is-absolute@1.0.1:
@@ -2262,8 +2262,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.104.1:
-    resolution: {integrity: sha512-tk841OJHMRK1pxEAXa3aNqs1wJBT2Kb2dbHZbXdEdlyFdkC2kQtfIQLoaYb6uTDD0B78dtho9aoxjhX2ozT9Mw==}
+  renovate@43.104.3:
+    resolution: {integrity: sha512-8VC9jy+xNOo86YfkZZJeOPwolecGD5Ln/vq8YsNJo2b+K7D1vkD3bn+Ig/1Kwh4s/TaTOPLhQVvWRMa8u4SzEQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2443,8 +2443,8 @@ packages:
     resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
     engines: {node: '>=14.16'}
 
-  strnum@2.2.2:
-    resolution: {integrity: sha512-DnR90I+jtXNSTXWdwrEy9FakW7UX+qUZg28gj5fk2vxxl7uS/3bpI4fjFYVmdK9etptYBPNkpahuQnEwhwECqA==}
+  strnum@2.2.3:
+    resolution: {integrity: sha512-oKx6RUCuHfT3oyVjtnrmn19H1SiCqgJSg+54XqURKp5aCMbrXrhLjRN9TjuwMjiYstZ0MzDrHqkGZ5dFTKd+zg==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -3483,7 +3483,7 @@ snapshots:
       agent-base: 7.1.4
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
       socks-proxy-agent: 8.0.5
     transitivePeerDependencies:
       - supports-color
@@ -4394,7 +4394,7 @@ snapshots:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.3
       glob: 13.0.6
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
       minipass: 7.1.3
       minipass-collect: 2.0.1
       minipass-flush: 1.0.7
@@ -4691,13 +4691,13 @@ snapshots:
 
   fast-xml-builder@1.1.4:
     dependencies:
-      path-expression-matcher: 1.2.1
+      path-expression-matcher: 1.4.0
 
   fast-xml-parser@5.5.8:
     dependencies:
       fast-xml-builder: 1.1.4
-      path-expression-matcher: 1.2.1
-      strnum: 2.2.2
+      path-expression-matcher: 1.4.0
+      strnum: 2.2.3
 
   fastq@1.20.1:
     dependencies:
@@ -5162,7 +5162,7 @@ snapshots:
 
   lowercase-keys@3.0.0: {}
 
-  lru-cache@11.3.1: {}
+  lru-cache@11.3.2: {}
 
   luxon@3.7.2: {}
 
@@ -5729,7 +5729,7 @@ snapshots:
       '@types/parse-path': 7.1.0
       parse-path: 7.1.0
 
-  path-expression-matcher@1.2.1: {}
+  path-expression-matcher@1.4.0: {}
 
   path-is-absolute@1.0.1:
     optional: true
@@ -5740,7 +5740,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.3.1
+      lru-cache: 11.3.2
       minipass: 7.1.3
 
   pend@1.2.0: {}
@@ -5895,7 +5895,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.104.1(typanion@3.14.0):
+  renovate@43.104.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
@@ -6205,7 +6205,7 @@ snapshots:
 
   strip-json-comments@5.0.3: {}
 
-  strnum@2.2.2: {}
+  strnum@2.2.3: {}
 
   supports-color@7.2.0:
     dependencies:
