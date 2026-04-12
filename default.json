@@ -58,7 +58,7 @@
     {
       "groupName": "Cloudflare Wrangler packages",
       "matchPackageNames": [
-        "wranger",
+        "wrangler",
         "@cloudflare/**"
       ]
     }
