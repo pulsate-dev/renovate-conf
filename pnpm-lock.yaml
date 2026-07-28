@@ -13,7 +13,7 @@ importers:
         version: 2.1.10
       renovate:
         specifier: ^43.0.0
-        version: 43.280.2(supports-color@7.2.0)(typanion@3.14.0)
+        version: 43.280.4(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -582,8 +582,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@26.1.1':
-    resolution: {integrity: sha512-nxAkRSVkN1Y0JC1W8ky/fTfkGsMmcrRsbx+3XoZE+rMOX71kLYTV7fLXpqud1GpbpP5TuffXFqfX7fH2GgZREw==}
+  '@types/node@26.1.2':
+    resolution: {integrity: sha512-Vu4a5UFA9rIIFJ7rB/Vaafh9lrCQszopTCx6KjFboXTGQbPNasehVR5TEiithSDGyd1DEiUByggTZsg8jukeIg==}
 
   '@types/parse-path@7.1.0':
     resolution: {integrity: sha512-EULJ8LApcVEPbrfND0cRQqutIOdiIgJ1Mgrhpy755r14xMohPTEpkV/k28SJvuOs9bHRFW8x+KeDAEPiGQPB9Q==}
@@ -1967,8 +1967,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.280.2:
-    resolution: {integrity: sha512-H3P3SoSExqfYOjHjc7Nspej3DeQcBV3x0HGX4jURx3djXUHnE1WUWaYE7KdPumi6XrIOt0Ry63YjuaWnQG0ZXw==}
+  renovate@43.280.4:
+    resolution: {integrity: sha512-YU9OzwdaE5zJWzNXJEHh3mjU7qy/jlZeZQlcUWsRXfG9Ql9vMfb4O0EYz3kWRN2Xgy81jfvvm8LYe7KgZ6UW+Q==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3134,13 +3134,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 26.1.1
+      '@types/node': 26.1.2
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
-      '@types/node': 26.1.1
+      '@types/node': 26.1.2
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.13':
@@ -3153,7 +3153,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 26.1.1
+      '@types/node': 26.1.2
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -3163,7 +3163,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@26.1.1':
+  '@types/node@26.1.2':
     dependencies:
       undici-types: 8.3.0
 
@@ -3173,7 +3173,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 26.1.1
+      '@types/node': 26.1.2
 
   '@types/semver@7.7.1': {}
 
@@ -4750,7 +4750,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.280.2(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@43.280.4(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
