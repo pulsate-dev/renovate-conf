@@ -22,6 +22,7 @@
   "labels": ["T: renovate"],
   "extends": [
     "config:recommended",
+    "helpers:pinGitHubActionDigests",
     "packages:eslint",
     "packages:react",
     "packages:vite"
