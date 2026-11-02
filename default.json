@@ -2,9 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "autoApprove": true,
   "automerge": true,
-  "platformAutomerge": true,
-  "dependencyDashboard": true,
-  "ignoreTests": false,
   "semanticCommits": "enabled",
   "semanticCommitScope": "deps",
   "semanticCommitType": "chore",
@@ -18,7 +15,7 @@
     "dockerfile",
     "docker-compose"
   ],
-  "reviewers": ["team:developer-team"],
+  "reviewers": ["team:core"],
   "labels": ["T: renovate"],
   "extends": [
     "config:recommended",
@@ -35,21 +32,32 @@
     "commitMessageAction": "Roll back",
     "semanticCommitType": "fix",
     "addLabels": ["T: hotfix", "requires core approval"],
-    "additionalReviewers": ["team:core-team"],
+    "additionalReviewers": ["team:core"],
     "schedule": ["at any time"]
   },
   "vulnerabilityAlerts": {
     "dependencyDashboardApproval": false,
+    "autoApprove": false,
     "automerge": false,
+    "minimumReleaseAge": null,
     "rangeStrategy": "update-lockfile",
     "commitMessageSuffix": "[SECURITY]",
     "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
     "prCreation": "immediate",
     "addLabels": ["T: hotfix", "requires core approval"],
-    "additionalReviewers": ["team:core-team"],
+    "additionalReviewers": ["team:core"],
     "schedule": ["at any time"]
   },
+  "lockFileMaintenance": {
+    "autoApprove": false,
+    "automerge": false
+  },
   "packageRules": [
+    {
+      "matchManagers": ["asdf", "mise"],
+      "autoApprove": false,
+      "automerge": false
+    },
     {
       "groupName": null,
       "matchUpdateTypes": ["major"],
