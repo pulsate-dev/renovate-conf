@@ -1,0 +1,3 @@
+# default.json is inherited by every repository that extends this config.
+/.github/CODEOWNERS    @pulsate-dev/core
+/default.json          @pulsate-dev/core
