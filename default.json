@@ -24,7 +24,7 @@
     "packages:react",
     "packages:vite"
   ],
-  "schedule": ["before 3am"],
+  "schedule": ["before 6am"],
   "rollback": {
     "autoApprove": false,
     "automerge": false,
